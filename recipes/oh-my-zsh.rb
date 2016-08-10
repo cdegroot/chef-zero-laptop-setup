@@ -9,11 +9,14 @@ set_profile_command = 'echo -e "\033]50;SetProfile=Meslo\a"'
 remote_file install_script do
   source "https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh"
   mode '0755'
+  notifies :run, 'execute[install]', :immediately
 end
 
 execute "install" do
   command "sh -c #{install_script}"
   user node.default['user']['name']
+  action :nothing
+  notifies :run, 'ruby_block[set theme]', :immediately
 end
 
 ruby_block "set theme" do
@@ -22,6 +25,7 @@ ruby_block "set theme" do
     fe.search_file_replace_line(default_theme, desired_theme)
     fe.write_file
   end
+  action :nothing
 end
 
 ruby_block "set profile if not exists" do
