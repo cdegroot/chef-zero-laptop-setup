@@ -21,10 +21,12 @@ end
 execute "git update fonts" do
 	command "cd fonts && git pull"
 	only_if { File.directory? "fonts" }
+  notifies :run, 'execute[install fonts]', :immediately
 end
 
 execute "install fonts" do
 	command "cd fonts && ./install.sh"
+  action :nothing
 end
 
 dynamic_profile = "#{node.default['user']['homefolder']}/Library/Application Support/iTerm2/DynamicProfiles"
