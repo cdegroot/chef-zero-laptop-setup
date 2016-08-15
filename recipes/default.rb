@@ -12,6 +12,8 @@ execute "config git" do
   user node.default['user']['name']
 end
 
+package 'elixir' do; end
+
 include_recipe 'devbox::iterm'
 include_recipe 'devbox::oh-my-zsh'
 include_recipe 'devbox::nvm'
