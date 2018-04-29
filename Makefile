@@ -8,4 +8,4 @@ setup: clean
 	berks vendor cookbooks
 
 run: setup
-	sudo chef-client -z -o devbox
+	sudo chef-client -z -r 'role[devbox]'

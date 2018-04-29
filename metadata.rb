@@ -1,11 +1,9 @@
 name             'devbox'
-maintainer       "Paul D'Ambra"
-maintainer_email 'paul.dambra@gmail.com'
+maintainer       "Cees de Groot"
+maintainer_email 'casedeg@gmail.com'
 license          'https://creativecommons.org/licenses/by/4.0/'
-description      'Installs/Configures my laptop as I like it'
+description      'Installs Linux development setup. Original from https://github.com/pauldambra/chef-zero-laptop-setup'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
-
-depends 'homebrew'
-depends 'dmg'
+depends 'asdf'
