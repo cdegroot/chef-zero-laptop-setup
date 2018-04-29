@@ -1015,12 +1015,12 @@
         },
         "/dev/mapper/ubuntu--vg-root": {
           "kb_size": "129025180",
-          "kb_used": "22655232",
-          "kb_available": "99772728",
+          "kb_used": "22655412",
+          "kb_available": "99772548",
           "percent_used": "19%",
           "total_inodes": "8232960",
-          "inodes_used": "650743",
-          "inodes_available": "7582217",
+          "inodes_used": "650775",
+          "inodes_available": "7582185",
           "inodes_percent_used": "8%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1317,12 +1317,12 @@
         },
         "/": {
           "kb_size": "129025180",
-          "kb_used": "22655232",
-          "kb_available": "99772728",
+          "kb_used": "22655412",
+          "kb_available": "99772548",
           "percent_used": "19%",
           "total_inodes": "8232960",
-          "inodes_used": "650743",
-          "inodes_available": "7582217",
+          "inodes_used": "650775",
+          "inodes_available": "7582185",
           "inodes_percent_used": "8%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1844,13 +1844,13 @@
         "/dev/mapper/ubuntu--vg-root,/": {
           "device": "/dev/mapper/ubuntu--vg-root",
           "kb_size": "129025180",
-          "kb_used": "22655232",
-          "kb_available": "99772728",
+          "kb_used": "22655412",
+          "kb_available": "99772548",
           "percent_used": "19%",
           "mount": "/",
           "total_inodes": "8232960",
-          "inodes_used": "650743",
-          "inodes_available": "7582217",
+          "inodes_used": "650775",
+          "inodes_available": "7582185",
           "inodes_percent_used": "8%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2363,12 +2363,12 @@
         },
         "/dev/mapper/ubuntu--vg-root": {
           "kb_size": "129025180",
-          "kb_used": "22655232",
-          "kb_available": "99772728",
+          "kb_used": "22655412",
+          "kb_available": "99772548",
           "percent_used": "19%",
           "total_inodes": "8232960",
-          "inodes_used": "650743",
-          "inodes_available": "7582217",
+          "inodes_used": "650775",
+          "inodes_available": "7582185",
           "inodes_percent_used": "8%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2665,12 +2665,12 @@
         },
         "/": {
           "kb_size": "129025180",
-          "kb_used": "22655232",
-          "kb_available": "99772728",
+          "kb_used": "22655412",
+          "kb_available": "99772548",
           "percent_used": "19%",
           "total_inodes": "8232960",
-          "inodes_used": "650743",
-          "inodes_available": "7582217",
+          "inodes_used": "650775",
+          "inodes_available": "7582185",
           "inodes_percent_used": "8%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3192,13 +3192,13 @@
         "/dev/mapper/ubuntu--vg-root,/": {
           "device": "/dev/mapper/ubuntu--vg-root",
           "kb_size": "129025180",
-          "kb_used": "22655232",
-          "kb_available": "99772728",
+          "kb_used": "22655412",
+          "kb_available": "99772548",
           "percent_used": "19%",
           "mount": "/",
           "total_inodes": "8232960",
-          "inodes_used": "650743",
-          "inodes_available": "7582217",
+          "inodes_used": "650775",
+          "inodes_available": "7582185",
           "inodes_percent_used": "8%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3909,7 +3909,7 @@
     "platform": "ubuntu",
     "platform_version": "18.04",
     "platform_family": "debian",
-    "ohai_time": 1524972356.2636309,
+    "ohai_time": 1524973204.6423123,
     "chef_packages": {
       "chef": {
         "version": "13.8.5",
@@ -4040,16 +4040,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "120357659",
-              "packets": "201654",
+              "bytes": "128215687",
+              "packets": "230280",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "120357659",
-              "packets": "201654",
+              "bytes": "128215687",
+              "packets": "230280",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -4058,16 +4058,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "9321910438",
-              "packets": "573670",
+              "bytes": "9327345683",
+              "packets": "589325",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "640755494",
-              "packets": "828102",
+              "bytes": "646652406",
+              "packets": "848049",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -4080,7 +4080,7 @@
     "macaddress": "00:15:5D:B7:E6:02",
     "memory": {
       "swap": {
-        "cached": "128kB",
+        "cached": "168kB",
         "total": "999420kB",
         "free": "998128kB"
       },
@@ -4091,24 +4091,24 @@
         "surplus": "0"
       },
       "total": "1996788kB",
-      "free": "325984kB",
-      "available": "940704kB",
-      "buffers": "93764kB",
-      "cached": "464352kB",
-      "active": "463416kB",
-      "inactive": "252888kB",
-      "dirty": "108kB",
+      "free": "602268kB",
+      "available": "856320kB",
+      "buffers": "46148kB",
+      "cached": "187732kB",
+      "active": "273020kB",
+      "inactive": "122064kB",
+      "dirty": "2308kB",
       "writeback": "0kB",
-      "anon_pages": "163724kB",
-      "mapped": "81276kB",
-      "slab": "170500kB",
-      "slab_reclaimable": "93756kB",
-      "slab_unreclaim": "76744kB",
-      "page_tables": "8268kB",
+      "anon_pages": "166696kB",
+      "mapped": "65700kB",
+      "slab": "134408kB",
+      "slab_reclaimable": "57324kB",
+      "slab_unreclaim": "77084kB",
+      "page_tables": "8428kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "1997812kB",
-      "committed_as": "745484kB",
+      "committed_as": "758328kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "0kB",
       "vmalloc_chunk": "0kB",
@@ -4480,7 +4480,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 81457,
+      "_AVPHYS_PAGES": 150479,
       "_NPROCESSORS_CONF": 4,
       "_NPROCESSORS_ONLN": 4,
       "_PHYS_PAGES": 499197,
@@ -4738,10 +4738,10 @@
       "_POSIX_IPV6": 200809,
       "_POSIX_RAW_SOCKETS": 200809
     },
-    "uptime_seconds": 11766,
-    "uptime": "3 hours 16 minutes 06 seconds",
-    "idletime_seconds": 45523,
-    "idletime": "12 hours 38 minutes 43 seconds",
+    "uptime_seconds": 12615,
+    "uptime": "3 hours 30 minutes 15 seconds",
+    "idletime_seconds": 48856,
+    "idletime": "13 hours 34 minutes 16 seconds",
     "command": {
       "ps": "ps -ef"
     },
@@ -9309,7 +9309,8 @@
       "devbox::git",
       "devbox::asdf",
       "devbox::emacs",
-      "devbox::vim"
+      "devbox::vim",
+      "devbox::terminator"
     ],
     "expanded_run_list": [
       "apt::default",
