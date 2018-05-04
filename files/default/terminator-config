@@ -5,9 +5,10 @@
   title_receive_bg_color = "#edd400"
   title_transmit_bg_color = "#3465a4"
   title_use_system_font = False
+  window_state = fullscreen
 [keybindings]
-  split_horiz = <Shift><Alt>d
-  split_vert = <Alt>d
+  split_horiz = <Shift><Super>d
+  split_vert = <Super>d
   zoom_in = <Primary>equal
 [layouts]
   [[default]]
