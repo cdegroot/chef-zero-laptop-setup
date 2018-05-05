@@ -1,0 +1,36 @@
+{
+  "name": "devbox",
+  "description": "Installs Linux development setup. Original from https://github.com/pauldambra/chef-zero-laptop-setup",
+  "long_description": "# What have I started?!\n\nrun `make`",
+  "maintainer": "Cees de Groot",
+  "maintainer_email": "casedeg@gmail.com",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "platforms": {
+
+  },
+  "dependencies": {
+    "asdf": ">= 0.0.0"
+  },
+  "providing": {
+
+  },
+  "attributes": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}
