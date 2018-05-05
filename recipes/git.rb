@@ -11,5 +11,8 @@ git_push_cmd = "git config --global push.default simple"
 execute "config git" do
   command "#{git_user_cmd} && #{git_email_cmd} && #{git_autocorrect_cmd} && #{git_push_cmd}"
   user node.default['user']['account']
+  environment ({
+    'HOME' => node.default['user']['homedir']
+  })
 end
 

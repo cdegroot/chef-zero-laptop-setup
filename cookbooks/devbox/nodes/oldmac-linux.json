@@ -104,25 +104,25 @@
         "reserved": "0",
         "surplus": "0"
       },
-      "total": "16335648kB",
-      "free": "4407064kB",
-      "available": "9965244kB",
-      "buffers": "282976kB",
-      "cached": "4729128kB",
-      "active": "6214044kB",
-      "inactive": "4719552kB",
-      "dirty": "4316kB",
+      "total": "16335652kB",
+      "free": "3738052kB",
+      "available": "9480904kB",
+      "buffers": "447176kB",
+      "cached": "4808980kB",
+      "active": "6834352kB",
+      "inactive": "4807760kB",
+      "dirty": "1276kB",
       "writeback": "0kB",
-      "anon_pages": "5921704kB",
-      "mapped": "1044448kB",
-      "slab": "718012kB",
-      "slab_reclaimable": "415008kB",
-      "slab_unreclaim": "303004kB",
-      "page_tables": "119216kB",
+      "anon_pages": "6384168kB",
+      "mapped": "1214840kB",
+      "slab": "663280kB",
+      "slab_reclaimable": "397440kB",
+      "slab_unreclaim": "265840kB",
+      "page_tables": "122980kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "22937624kB",
-      "committed_as": "21254636kB",
+      "committed_as": "22147376kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "0kB",
       "vmalloc_chunk": "0kB",
@@ -151,7 +151,7 @@
             "Voltage": "0.0 V",
             "External Clock": "Unknown",
             "Max Speed": "2200 MHz",
-            "Current Speed": "2220 MHz",
+            "Current Speed": "2215 MHz",
             "Status": "Populated, Enabled",
             "Upgrade": "ZIF Socket",
             "L1 Cache Handle": "0x0002",
@@ -174,7 +174,7 @@
             "Voltage": "0.0 V",
             "External Clock": "Unknown",
             "Max Speed": "2200 MHz",
-            "Current Speed": "2220 MHz",
+            "Current Speed": "2218 MHz",
             "Status": "Populated, Enabled",
             "Upgrade": "ZIF Socket",
             "L1 Cache Handle": "0x0007",
@@ -197,7 +197,7 @@
             "Voltage": "0.0 V",
             "External Clock": "Unknown",
             "Max Speed": "2200 MHz",
-            "Current Speed": "2236 MHz",
+            "Current Speed": "2227 MHz",
             "Status": "Populated, Enabled",
             "Upgrade": "ZIF Socket",
             "L1 Cache Handle": "0x000C",
@@ -220,7 +220,7 @@
             "Voltage": "0.0 V",
             "External Clock": "Unknown",
             "Max Speed": "2200 MHz",
-            "Current Speed": "29250 MHz",
+            "Current Speed": "40729 MHz",
             "Status": "Populated, Enabled",
             "Upgrade": "ZIF Socket",
             "L1 Cache Handle": "0x0011",
@@ -243,7 +243,7 @@
             "Voltage": "0.0 V",
             "External Clock": "Unknown",
             "Max Speed": "2200 MHz",
-            "Current Speed": "2224 MHz",
+            "Current Speed": "2220 MHz",
             "Status": "Populated, Enabled",
             "Upgrade": "ZIF Socket",
             "L1 Cache Handle": "0x0016",
@@ -266,7 +266,7 @@
             "Voltage": "0.0 V",
             "External Clock": "Unknown",
             "Max Speed": "2200 MHz",
-            "Current Speed": "43079 MHz",
+            "Current Speed": "2220 MHz",
             "Status": "Populated, Enabled",
             "Upgrade": "ZIF Socket",
             "L1 Cache Handle": "0x001B",
@@ -289,7 +289,7 @@
             "Voltage": "0.0 V",
             "External Clock": "Unknown",
             "Max Speed": "2200 MHz",
-            "Current Speed": "2236 MHz",
+            "Current Speed": "2232 MHz",
             "Status": "Populated, Enabled",
             "Upgrade": "ZIF Socket",
             "L1 Cache Handle": "0x0020",
@@ -312,7 +312,7 @@
             "Voltage": "0.0 V",
             "External Clock": "Unknown",
             "Max Speed": "2200 MHz",
-            "Current Speed": "2233 MHz",
+            "Current Speed": "60179 MHz",
             "Status": "Populated, Enabled",
             "Upgrade": "ZIF Socket",
             "L1 Cache Handle": "0x0025",
@@ -569,31 +569,6 @@
           "refcount": "2",
           "version": "1.3"
         },
-        "binfmt_misc": {
-          "size": "20480",
-          "refcount": "1"
-        },
-        "nls_iso8859_1": {
-          "size": "16384",
-          "refcount": "1"
-        },
-        "joydev": {
-          "size": "24576",
-          "refcount": "0"
-        },
-        "dm_crypt": {
-          "size": "36864",
-          "refcount": "1"
-        },
-        "applesmc": {
-          "size": "20480",
-          "refcount": "0"
-        },
-        "input_polldev": {
-          "size": "16384",
-          "refcount": "1",
-          "version": "0.1"
-        },
         "btusb": {
           "size": "45056",
           "refcount": "0",
@@ -628,10 +603,6 @@
           "refcount": "0",
           "version": "1.1.1"
         },
-        "input_leds": {
-          "size": "16384",
-          "refcount": "0"
-        },
         "videobuf2_vmalloc": {
           "size": "16384",
           "refcount": "1"
@@ -640,13 +611,49 @@
           "size": "16384",
           "refcount": "1"
         },
-        "intel_rapl": {
-          "size": "20480",
-          "refcount": "0"
-        },
         "videobuf2_v4l2": {
           "size": "24576",
           "refcount": "1"
+        },
+        "videobuf2_core": {
+          "size": "40960",
+          "refcount": "2"
+        },
+        "input_leds": {
+          "size": "16384",
+          "refcount": "0"
+        },
+        "videodev": {
+          "size": "184320",
+          "refcount": "3"
+        },
+        "bcm5974": {
+          "size": "16384",
+          "refcount": "0"
+        },
+        "media": {
+          "size": "40960",
+          "refcount": "2"
+        },
+        "binfmt_misc": {
+          "size": "20480",
+          "refcount": "1"
+        },
+        "nls_iso8859_1": {
+          "size": "16384",
+          "refcount": "1"
+        },
+        "joydev": {
+          "size": "24576",
+          "refcount": "0"
+        },
+        "dm_crypt": {
+          "size": "36864",
+          "refcount": "1"
+        },
+        "intel_rapl": {
+          "size": "20480",
+          "refcount": "0"
         },
         "x86_pkg_temp_thermal": {
           "size": "16384",
@@ -656,29 +663,18 @@
           "size": "16384",
           "refcount": "0"
         },
-        "coretemp": {
-          "size": "16384",
-          "refcount": "0"
-        },
-        "videobuf2_core": {
-          "size": "40960",
-          "refcount": "2"
-        },
-        "bcm5974": {
-          "size": "16384",
-          "refcount": "0"
-        },
         "kvm_intel": {
           "size": "204800",
           "refcount": "0"
         },
-        "videodev": {
-          "size": "184320",
-          "refcount": "3"
+        "applesmc": {
+          "size": "20480",
+          "refcount": "0"
         },
-        "media": {
-          "size": "40960",
-          "refcount": "2"
+        "input_polldev": {
+          "size": "16384",
+          "refcount": "1",
+          "version": "0.1"
         },
         "kvm": {
           "size": "593920",
@@ -706,7 +702,7 @@
         },
         "aesni_intel": {
           "size": "188416",
-          "refcount": "19947"
+          "refcount": "35421"
         },
         "aes_x86_64": {
           "size": "20480",
@@ -722,18 +718,10 @@
         },
         "cryptd": {
           "size": "24576",
-          "refcount": "9976"
+          "refcount": "17713"
         },
         "intel_cstate": {
           "size": "20480",
-          "refcount": "0"
-        },
-        "intel_rapl_perf": {
-          "size": "16384",
-          "refcount": "0"
-        },
-        "wl": {
-          "size": "6447104",
           "refcount": "0"
         },
         "snd_hda_codec_cirrus": {
@@ -744,13 +732,13 @@
           "size": "73728",
           "refcount": "1"
         },
+        "intel_rapl_perf": {
+          "size": "16384",
+          "refcount": "0"
+        },
         "snd_hda_intel": {
           "size": "40960",
           "refcount": "6"
-        },
-        "cfg80211": {
-          "size": "622592",
-          "refcount": "1"
         },
         "snd_hda_codec": {
           "size": "126976",
@@ -760,6 +748,10 @@
           "size": "81920",
           "refcount": "4"
         },
+        "wl": {
+          "size": "6447104",
+          "refcount": "0"
+        },
         "snd_hwdep": {
           "size": "20480",
           "refcount": "1"
@@ -767,6 +759,10 @@
         "snd_pcm": {
           "size": "98304",
           "refcount": "3"
+        },
+        "cfg80211": {
+          "size": "622592",
+          "refcount": "1"
         },
         "snd_seq_midi": {
           "size": "16384",
@@ -784,10 +780,6 @@
           "size": "20480",
           "refcount": "0"
         },
-        "snd_seq": {
-          "size": "65536",
-          "refcount": "2"
-        },
         "acpi_als": {
           "size": "16384",
           "refcount": "0"
@@ -796,33 +788,37 @@
           "size": "16384",
           "refcount": "1"
         },
-        "snd_seq_device": {
+        "sbshc": {
           "size": "16384",
-          "refcount": "3"
+          "refcount": "1"
         },
         "industrialio": {
           "size": "69632",
+          "refcount": "2"
+        },
+        "snd_seq": {
+          "size": "65536",
           "refcount": "2"
         },
         "apple_gmux": {
           "size": "20480",
           "refcount": "0"
         },
-        "sbshc": {
+        "snd_seq_device": {
           "size": "16384",
-          "refcount": "1"
+          "refcount": "3"
         },
         "snd_timer": {
           "size": "32768",
           "refcount": "2"
         },
-        "snd": {
-          "size": "81920",
-          "refcount": "22"
-        },
         "mei_me": {
           "size": "40960",
           "refcount": "0"
+        },
+        "snd": {
+          "size": "81920",
+          "refcount": "22"
         },
         "soundcore": {
           "size": "16384",
@@ -832,12 +828,12 @@
           "size": "90112",
           "refcount": "1"
         },
-        "shpchp": {
-          "size": "36864",
-          "refcount": "0"
-        },
         "lpc_ich": {
           "size": "24576",
+          "refcount": "0"
+        },
+        "shpchp": {
+          "size": "36864",
           "refcount": "0"
         },
         "apple_bl": {
@@ -847,6 +843,10 @@
         "sch_fq_codel": {
           "size": "20480",
           "refcount": "3"
+        },
+        "coretemp": {
+          "size": "16384",
+          "refcount": "0"
         },
         "mac_hid": {
           "size": "16384",
@@ -920,11 +920,6 @@
           "size": "16384",
           "refcount": "1"
         },
-        "ahci": {
-          "size": "36864",
-          "refcount": "4",
-          "version": "3.0"
-        },
         "sysimgblt": {
           "size": "16384",
           "refcount": "1"
@@ -933,22 +928,23 @@
           "size": "16384",
           "refcount": "1"
         },
-        "libahci": {
-          "size": "32768",
-          "refcount": "1"
-        },
-        "firewire_ohci": {
-          "size": "40960",
-          "refcount": "0"
-        },
         "tg3": {
           "size": "167936",
           "refcount": "0",
           "version": "3.137"
         },
+        "firewire_ohci": {
+          "size": "40960",
+          "refcount": "0"
+        },
         "drm": {
           "size": "401408",
           "refcount": "17"
+        },
+        "ahci": {
+          "size": "36864",
+          "refcount": "4",
+          "version": "3.0"
         },
         "sdhci_pci": {
           "size": "28672",
@@ -960,6 +956,10 @@
         },
         "ptp": {
           "size": "20480",
+          "refcount": "1"
+        },
+        "libahci": {
+          "size": "32768",
           "refcount": "1"
         },
         "sdhci": {
@@ -1093,7 +1093,7 @@
                 "noprefixroute"
               ]
             },
-            "fd51:3934:3aa3:0:1568:1899:dc8f:1101": {
+            "fd51:3934:3aa3:0:1996:a949:c1e5:e847": {
               "family": "inet6",
               "prefixlen": "64",
               "scope": "Global",
@@ -1122,9 +1122,9 @@
           },
           "state": "up",
           "arp": {
+            "192.168.1.236": "28:39:5e:0b:61:13",
             "192.168.1.1": "b0:b9:8a:63:61:5b",
-            "192.168.1.224": "6c:40:08:b7:a3:7c",
-            "192.168.1.237": "28:39:5e:0b:61:13"
+            "192.168.1.224": "6c:40:08:b7:a3:7c"
           },
           "routes": [
             {
@@ -1181,9 +1181,11 @@
             }
           ],
           "neighbour_inet6": {
-            "fe80::e050:a73d:ac84:7dd4": "6c:40:08:b7:a3:7c",
+            "fe80::1a92:d624:de36:b9f4": "b8:27:eb:6f:95:e3",
+            "fd51:3934:3aa3::1": "b0:b9:8a:63:61:5b",
             "fe80::b2b9:8aff:fe63:615b": "b0:b9:8a:63:61:5b",
-            "fd51:3934:3aa3::1": "b0:b9:8a:63:61:5b"
+            "fe80::b898:8980:89b0:2b5": "b8:27:eb:49:67:8f",
+            "fd51:3934:3aa3::36": "b8:27:eb:6f:95:e3"
           },
           "ring_params": {
 
@@ -1200,7 +1202,7 @@
           ],
           "encapsulation": "Ethernet",
           "addresses": {
-            "02:42:89:38:7F:9C": {
+            "02:42:59:98:41:DC": {
               "family": "lladdr"
             },
             "172.17.0.1": {
@@ -1234,7 +1236,7 @@
           ],
           "encapsulation": "Ethernet",
           "addresses": {
-            "02:42:13:A4:E9:01": {
+            "02:42:70:C6:5F:53": {
               "family": "lladdr"
             },
             "172.18.0.1": {
@@ -1269,16 +1271,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "284428",
-              "packets": "3389",
+              "bytes": "7979749",
+              "packets": "17478",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "284428",
-              "packets": "3389",
+              "bytes": "7979749",
+              "packets": "17478",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1305,16 +1307,16 @@
           "wlp3s0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "15782205",
-              "packets": "90848",
+              "bytes": "71500457",
+              "packets": "443004",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "97578187",
-              "packets": "106271",
+              "bytes": "586098666",
+              "packets": "553316",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1367,7 +1369,7 @@
         "model": "42",
         "model_name": "Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz",
         "stepping": "7",
-        "mhz": "1042.165",
+        "mhz": "1219.913",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "0",
@@ -1458,11 +1460,11 @@
         "model": "42",
         "model_name": "Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz",
         "stepping": "7",
-        "mhz": "1038.948",
+        "mhz": "1199.198",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "1",
-        "cores": "8",
+        "cores": "48",
         "flags": [
           "fpu",
           "vme",
@@ -1549,11 +1551,11 @@
         "model": "42",
         "model_name": "Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz",
         "stepping": "7",
-        "mhz": "1252.940",
+        "mhz": "1214.504",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "2",
-        "cores": "8",
+        "cores": "48",
         "flags": [
           "fpu",
           "vme",
@@ -1640,11 +1642,11 @@
         "model": "42",
         "model_name": "Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz",
         "stepping": "7",
-        "mhz": "1338.600",
+        "mhz": "1422.931",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "3",
-        "cores": "8",
+        "cores": "48",
         "flags": [
           "fpu",
           "vme",
@@ -1731,7 +1733,7 @@
         "model": "42",
         "model_name": "Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz",
         "stepping": "7",
-        "mhz": "1347.732",
+        "mhz": "1384.246",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "0",
@@ -1822,11 +1824,11 @@
         "model": "42",
         "model_name": "Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz",
         "stepping": "7",
-        "mhz": "1103.935",
+        "mhz": "1485.058",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "1",
-        "cores": "3",
+        "cores": "1",
         "flags": [
           "fpu",
           "vme",
@@ -1913,7 +1915,7 @@
         "model": "42",
         "model_name": "Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz",
         "stepping": "7",
-        "mhz": "942.388",
+        "mhz": "1276.762",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "2",
@@ -2004,11 +2006,11 @@
         "model": "42",
         "model_name": "Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz",
         "stepping": "7",
-        "mhz": "1106.510",
+        "mhz": "1327.400",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "3",
-        "cores": "1",
+        "cores": "65507",
         "flags": [
           "fpu",
           "vme",
@@ -2096,21 +2098,21 @@
     "filesystem": {
       "by_device": {
         "udev": {
-          "kb_size": "8138408",
+          "kb_size": "8138412",
           "kb_used": "0",
-          "kb_available": "8138408",
+          "kb_available": "8138412",
           "percent_used": "0%",
-          "total_inodes": "2034602",
-          "inodes_used": "599",
-          "inodes_available": "2034003",
+          "total_inodes": "2034603",
+          "inodes_used": "597",
+          "inodes_available": "2034006",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
             "rw",
             "nosuid",
             "relatime",
-            "size=8138408k",
-            "nr_inodes=2034602",
+            "size=8138412k",
+            "nr_inodes=2034603",
             "mode=755"
           ],
           "mounts": [
@@ -2119,12 +2121,12 @@
         },
         "tmpfs": {
           "kb_size": "1633564",
-          "kb_used": "64",
-          "kb_available": "1633500",
+          "kb_used": "72",
+          "kb_available": "1633492",
           "percent_used": "1%",
           "total_inodes": "2041956",
-          "inodes_used": "53",
-          "inodes_available": "2041903",
+          "inodes_used": "55",
+          "inodes_available": "2041901",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2147,12 +2149,12 @@
         },
         "/dev/sda5": {
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2166,6 +2168,104 @@
             "/",
             "/var/lib/docker/plugins",
             "/var/lib/docker/overlay2"
+          ]
+        },
+        "/dev/loop0": {
+          "kb_size": "166016",
+          "kb_used": "166016",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "23686",
+          "inodes_used": "23686",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/spotify/13"
+          ]
+        },
+        "/dev/loop1": {
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/slack/6"
+          ]
+        },
+        "/dev/loop2": {
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/slack/5"
+          ]
+        },
+        "/dev/loop3": {
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12817",
+          "inodes_used": "12817",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/core/4407"
+          ]
+        },
+        "/dev/loop4": {
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12819",
+          "inodes_used": "12819",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/core/4486"
+          ]
+        },
+        "/dev/loop5": {
+          "kb_size": "83712",
+          "kb_used": "83712",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12826",
+          "inodes_used": "12826",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/core/4206"
+          ]
+        },
+        "/dev/loop6": {
+          "kb_size": "130688",
+          "kb_used": "130688",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "25031",
+          "inodes_used": "25031",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/shotcut/21"
           ]
         },
         "/dev/loop7": {
@@ -2182,49 +2282,7 @@
             "/snap/canonical-livepatch/39"
           ]
         },
-        "/dev/loop2": {
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12819",
-          "inodes_used": "12819",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/core/4486"
-          ]
-        },
-        "/dev/loop4": {
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/slack/5"
-          ]
-        },
-        "/dev/loop0": {
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/slack/6"
-          ]
-        },
-        "/dev/loop1": {
+        "/dev/loop8": {
           "kb_size": "166528",
           "kb_used": "166528",
           "kb_available": "0",
@@ -2236,62 +2294,6 @@
           "fs_type": "squashfs",
           "mounts": [
             "/snap/spotify/6"
-          ]
-        },
-        "/dev/loop3": {
-          "kb_size": "166016",
-          "kb_used": "166016",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "23686",
-          "inodes_used": "23686",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/spotify/13"
-          ]
-        },
-        "/dev/loop5": {
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12817",
-          "inodes_used": "12817",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/core/4407"
-          ]
-        },
-        "/dev/loop6": {
-          "kb_size": "83712",
-          "kb_used": "83712",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12826",
-          "inodes_used": "12826",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/core/4206"
-          ]
-        },
-        "/dev/loop8": {
-          "kb_size": "130688",
-          "kb_used": "130688",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "25031",
-          "inodes_used": "25031",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/shotcut/21"
           ]
         },
         "/dev/sda7": {
@@ -2338,29 +2340,15 @@
         },
         "/home/cees/.Private": {
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "mounts": [
             "/home/cees"
-          ]
-        },
-        "/dev/loop9": {
-          "kb_size": "19584",
-          "kb_used": "19584",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1125",
-          "inodes_used": "1125",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/mnt"
           ]
         },
         "sysfs": {
@@ -2425,22 +2413,22 @@
             "nodev",
             "noexec",
             "relatime",
-            "memory"
+            "cpuset"
           ],
           "mounts": [
             "/sys/fs/cgroup/unified",
             "/sys/fs/cgroup/systemd",
-            "/sys/fs/cgroup/pids",
-            "/sys/fs/cgroup/perf_event",
-            "/sys/fs/cgroup/net_cls,net_prio",
-            "/sys/fs/cgroup/hugetlb",
-            "/sys/fs/cgroup/devices",
-            "/sys/fs/cgroup/rdma",
-            "/sys/fs/cgroup/cpuset",
+            "/sys/fs/cgroup/cpu,cpuacct",
             "/sys/fs/cgroup/blkio",
             "/sys/fs/cgroup/freezer",
-            "/sys/fs/cgroup/cpu,cpuacct",
-            "/sys/fs/cgroup/memory"
+            "/sys/fs/cgroup/memory",
+            "/sys/fs/cgroup/hugetlb",
+            "/sys/fs/cgroup/net_cls,net_prio",
+            "/sys/fs/cgroup/devices",
+            "/sys/fs/cgroup/rdma",
+            "/sys/fs/cgroup/pids",
+            "/sys/fs/cgroup/perf_event",
+            "/sys/fs/cgroup/cpuset"
           ]
         },
         "pstore": {
@@ -2474,26 +2462,16 @@
           "mount_options": [
             "rw",
             "relatime",
-            "fd=24",
+            "fd=27",
             "pgrp=1",
             "timeout=0",
             "minproto=5",
             "maxproto=5",
             "direct",
-            "pipe_ino=19830"
+            "pipe_ino=18820"
           ],
           "mounts": [
             "/proc/sys/fs/binfmt_misc"
-          ]
-        },
-        "debugfs": {
-          "fs_type": "debugfs",
-          "mount_options": [
-            "rw",
-            "relatime"
-          ],
-          "mounts": [
-            "/sys/kernel/debug"
           ]
         },
         "hugetlbfs": {
@@ -2517,6 +2495,16 @@
             "/dev/mqueue"
           ]
         },
+        "debugfs": {
+          "fs_type": "debugfs",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ],
+          "mounts": [
+            "/sys/kernel/debug"
+          ]
+        },
         "fusectl": {
           "fs_type": "fusectl",
           "mount_options": [
@@ -2537,7 +2525,7 @@
             "/sys/kernel/config"
           ]
         },
-        "/var/lib/snapd/snaps/canonical-livepatch_39.snap": {
+        "/var/lib/snapd/snaps/spotify_13.snap": {
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -2546,31 +2534,7 @@
             "x-gdu.hide"
           ],
           "mounts": [
-            "/snap/canonical-livepatch/39"
-          ]
-        },
-        "/var/lib/snapd/snaps/core_4486.snap": {
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ],
-          "mounts": [
-            "/snap/core/4486"
-          ]
-        },
-        "/var/lib/snapd/snaps/slack_5.snap": {
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ],
-          "mounts": [
-            "/snap/slack/5"
+            "/snap/spotify/13"
           ]
         },
         "/var/lib/snapd/snaps/slack_6.snap": {
@@ -2585,7 +2549,7 @@
             "/snap/slack/6"
           ]
         },
-        "/var/lib/snapd/snaps/spotify_6.snap": {
+        "/var/lib/snapd/snaps/slack_5.snap": {
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -2594,19 +2558,7 @@
             "x-gdu.hide"
           ],
           "mounts": [
-            "/snap/spotify/6"
-          ]
-        },
-        "/var/lib/snapd/snaps/spotify_13.snap": {
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ],
-          "mounts": [
-            "/snap/spotify/13"
+            "/snap/slack/5"
           ]
         },
         "/var/lib/snapd/snaps/core_4407.snap": {
@@ -2619,6 +2571,18 @@
           ],
           "mounts": [
             "/snap/core/4407"
+          ]
+        },
+        "/var/lib/snapd/snaps/core_4486.snap": {
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ],
+          "mounts": [
+            "/snap/core/4486"
           ]
         },
         "/var/lib/snapd/snaps/core_4206.snap": {
@@ -2642,6 +2606,30 @@
           ],
           "mounts": [
             "/snap/shotcut/21"
+          ]
+        },
+        "/var/lib/snapd/snaps/canonical-livepatch_39.snap": {
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ],
+          "mounts": [
+            "/snap/canonical-livepatch/39"
+          ]
+        },
+        "/var/lib/snapd/snaps/spotify_6.snap": {
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ],
+          "mounts": [
+            "/snap/spotify/6"
           ]
         },
         "binfmt_misc": {
@@ -2733,16 +2721,6 @@
             "/run/user/1000/keybase/kbfs"
           ]
         },
-        "/home/cees/tmp/nerves/hello_nerves/_build/rpi3/dev/nerves/images/data/rootfs.img": {
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "relatime"
-          ],
-          "mounts": [
-            "/mnt"
-          ]
-        },
         "/dev/sda": {
 
         },
@@ -2758,7 +2736,7 @@
         },
         "/dev/mapper/cryptswap1": {
           "fs_type": "swap",
-          "uuid": "ccf411ca-62fb-4c2f-bdf5-a36403a9e1e2"
+          "uuid": "93a4762f-a1b2-48bc-a9c4-5da5b068e7cd"
         },
         "/dev/sda2": {
           "fs_type": "hfsplus",
@@ -2771,21 +2749,21 @@
       },
       "by_mountpoint": {
         "/dev": {
-          "kb_size": "8138408",
+          "kb_size": "8138412",
           "kb_used": "0",
-          "kb_available": "8138408",
+          "kb_available": "8138412",
           "percent_used": "0%",
-          "total_inodes": "2034602",
-          "inodes_used": "599",
-          "inodes_available": "2034003",
+          "total_inodes": "2034603",
+          "inodes_used": "597",
+          "inodes_available": "2034006",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
             "rw",
             "nosuid",
             "relatime",
-            "size=8138408k",
-            "nr_inodes=2034602",
+            "size=8138412k",
+            "nr_inodes=2034603",
             "mode=755"
           ],
           "devices": [
@@ -2794,12 +2772,12 @@
         },
         "/run": {
           "kb_size": "1633568",
-          "kb_used": "2100",
-          "kb_available": "1631468",
+          "kb_used": "2112",
+          "kb_available": "1631456",
           "percent_used": "1%",
           "total_inodes": "2041956",
-          "inodes_used": "1174",
-          "inodes_available": "2040782",
+          "inodes_used": "1180",
+          "inodes_available": "2040776",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2816,12 +2794,12 @@
         },
         "/": {
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -2837,12 +2815,12 @@
         },
         "/dev/shm": {
           "kb_size": "8167824",
-          "kb_used": "283012",
-          "kb_available": "7884812",
-          "percent_used": "4%",
+          "kb_used": "411976",
+          "kb_available": "7755848",
+          "percent_used": "6%",
           "total_inodes": "2041956",
-          "inodes_used": "365",
-          "inodes_available": "2041591",
+          "inodes_used": "378",
+          "inodes_available": "2041578",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -2897,6 +2875,152 @@
             "tmpfs"
           ]
         },
+        "/snap/spotify/13": {
+          "kb_size": "166016",
+          "kb_used": "166016",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "23686",
+          "inodes_used": "23686",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop0",
+            "/var/lib/snapd/snaps/spotify_13.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/slack/6": {
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop1",
+            "/var/lib/snapd/snaps/slack_6.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/slack/5": {
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop2",
+            "/var/lib/snapd/snaps/slack_5.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/core/4407": {
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12817",
+          "inodes_used": "12817",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop3",
+            "/var/lib/snapd/snaps/core_4407.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/core/4486": {
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12819",
+          "inodes_used": "12819",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop4",
+            "/var/lib/snapd/snaps/core_4486.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/core/4206": {
+          "kb_size": "83712",
+          "kb_used": "83712",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12826",
+          "inodes_used": "12826",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop5",
+            "/var/lib/snapd/snaps/core_4206.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime"
+          ]
+        },
+        "/snap/shotcut/21": {
+          "kb_size": "130688",
+          "kb_used": "130688",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "25031",
+          "inodes_used": "25031",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop6",
+            "/var/lib/snapd/snaps/shotcut_21.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
         "/snap/canonical-livepatch/39": {
           "kb_size": "5120",
           "kb_used": "5120",
@@ -2918,69 +3042,6 @@
             "x-gdu.hide"
           ]
         },
-        "/snap/core/4486": {
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12819",
-          "inodes_used": "12819",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop2",
-            "/var/lib/snapd/snaps/core_4486.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/slack/5": {
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop4",
-            "/var/lib/snapd/snaps/slack_5.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/slack/6": {
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop0",
-            "/var/lib/snapd/snaps/slack_6.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
         "/snap/spotify/6": {
           "kb_size": "166528",
           "kb_used": "166528",
@@ -2992,91 +3053,8 @@
           "inodes_percent_used": "100%",
           "fs_type": "squashfs",
           "devices": [
-            "/dev/loop1",
-            "/var/lib/snapd/snaps/spotify_6.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/spotify/13": {
-          "kb_size": "166016",
-          "kb_used": "166016",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "23686",
-          "inodes_used": "23686",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop3",
-            "/var/lib/snapd/snaps/spotify_13.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/core/4407": {
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12817",
-          "inodes_used": "12817",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop5",
-            "/var/lib/snapd/snaps/core_4407.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/core/4206": {
-          "kb_size": "83712",
-          "kb_used": "83712",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12826",
-          "inodes_used": "12826",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop6",
-            "/var/lib/snapd/snaps/core_4206.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime"
-          ]
-        },
-        "/snap/shotcut/21": {
-          "kb_size": "130688",
-          "kb_used": "130688",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "25031",
-          "inodes_used": "25031",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
             "/dev/loop8",
-            "/var/lib/snapd/snaps/shotcut_21.snap"
+            "/var/lib/snapd/snaps/spotify_6.snap"
           ],
           "mount_options": [
             "ro",
@@ -3129,12 +3107,12 @@
         },
         "/run/user/125": {
           "kb_size": "1633564",
-          "kb_used": "16",
-          "kb_available": "1633548",
+          "kb_used": "20",
+          "kb_available": "1633544",
           "percent_used": "1%",
           "total_inodes": "2041956",
-          "inodes_used": "24",
-          "inodes_available": "2041932",
+          "inodes_used": "25",
+          "inodes_available": "2041931",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3153,12 +3131,12 @@
         },
         "/run/user/1000": {
           "kb_size": "1633564",
-          "kb_used": "64",
-          "kb_available": "1633500",
+          "kb_used": "72",
+          "kb_available": "1633492",
           "percent_used": "1%",
           "total_inodes": "2041956",
-          "inodes_used": "53",
-          "inodes_available": "2041903",
+          "inodes_used": "55",
+          "inodes_available": "2041901",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3177,12 +3155,12 @@
         },
         "/home/cees": {
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "devices": [
             "/home/cees/.Private",
@@ -3199,25 +3177,6 @@
             "ecryptfs_cipher=aes",
             "ecryptfs_key_bytes=16",
             "ecryptfs_unlink_sigs"
-          ]
-        },
-        "/mnt": {
-          "kb_size": "19584",
-          "kb_used": "19584",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1125",
-          "inodes_used": "1125",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop9",
-            "/home/cees/tmp/nerves/hello_nerves/_build/rpi3/dev/nerves/images/data/rootfs.img"
-          ],
-          "mount_options": [
-            "ro",
-            "relatime"
           ]
         },
         "/sys": {
@@ -3329,7 +3288,7 @@
             "efivarfs"
           ]
         },
-        "/sys/fs/cgroup/pids": {
+        "/sys/fs/cgroup/cpu,cpuacct": {
           "fs_type": "cgroup",
           "mount_options": [
             "rw",
@@ -3337,92 +3296,8 @@
             "nodev",
             "noexec",
             "relatime",
-            "pids"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/perf_event": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "perf_event"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/net_cls,net_prio": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "net_cls",
-            "net_prio"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/hugetlb": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "hugetlb"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/devices": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "devices"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/rdma": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "rdma"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/cpuset": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "cpuset"
+            "cpu",
+            "cpuacct"
           ],
           "devices": [
             "cgroup"
@@ -3456,21 +3331,6 @@
             "cgroup"
           ]
         },
-        "/sys/fs/cgroup/cpu,cpuacct": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "cpu",
-            "cpuacct"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
         "/sys/fs/cgroup/memory": {
           "fs_type": "cgroup",
           "mount_options": [
@@ -3485,6 +3345,105 @@
             "cgroup"
           ]
         },
+        "/sys/fs/cgroup/hugetlb": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "hugetlb"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/net_cls,net_prio": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "net_cls",
+            "net_prio"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/devices": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "devices"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/rdma": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "rdma"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/pids": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "pids"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/perf_event": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "perf_event"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/cpuset": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "cpuset"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
         "/proc/sys/fs/binfmt_misc": {
           "fs_type": "binfmt_misc",
           "mount_options": [
@@ -3494,16 +3453,6 @@
           "devices": [
             "systemd-1",
             "binfmt_misc"
-          ]
-        },
-        "/sys/kernel/debug": {
-          "fs_type": "debugfs",
-          "mount_options": [
-            "rw",
-            "relatime"
-          ],
-          "devices": [
-            "debugfs"
           ]
         },
         "/dev/hugepages": {
@@ -3525,6 +3474,16 @@
           ],
           "devices": [
             "mqueue"
+          ]
+        },
+        "/sys/kernel/debug": {
+          "fs_type": "debugfs",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ],
+          "devices": [
+            "debugfs"
           ]
         },
         "/sys/fs/fuse/connections": {
@@ -3561,6 +3520,25 @@
             "tmpfs"
           ]
         },
+        "/sys/kernel/debug/tracing": {
+          "fs_type": "tracefs",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ],
+          "devices": [
+            "tracefs"
+          ]
+        },
+        "/run/snapd/ns/canonical-livepatch.mnt": {
+          "fs_type": "nsfs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "nsfs"
+          ]
+        },
         "/var/lib/docker/plugins": {
           "fs_type": "ext4",
           "mount_options": [
@@ -3574,16 +3552,6 @@
             "/dev/sda5"
           ]
         },
-        "/sys/kernel/debug/tracing": {
-          "fs_type": "tracefs",
-          "mount_options": [
-            "rw",
-            "relatime"
-          ],
-          "devices": [
-            "tracefs"
-          ]
-        },
         "/var/lib/docker/overlay2": {
           "fs_type": "ext4",
           "mount_options": [
@@ -3595,15 +3563,6 @@
           "uuid": "260c4b87-cc12-44e1-b64f-ffc59d4943c3",
           "devices": [
             "/dev/sda5"
-          ]
-        },
-        "/run/snapd/ns/canonical-livepatch.mnt": {
-          "fs_type": "nsfs",
-          "mount_options": [
-            "rw"
-          ],
-          "devices": [
-            "nsfs"
           ]
         },
         "/run/user/1000/gvfs": {
@@ -3653,35 +3612,35 @@
       "by_pair": {
         "udev,/dev": {
           "device": "udev",
-          "kb_size": "8138408",
+          "kb_size": "8138412",
           "kb_used": "0",
-          "kb_available": "8138408",
+          "kb_available": "8138412",
           "percent_used": "0%",
           "mount": "/dev",
-          "total_inodes": "2034602",
-          "inodes_used": "599",
-          "inodes_available": "2034003",
+          "total_inodes": "2034603",
+          "inodes_used": "597",
+          "inodes_available": "2034006",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
             "rw",
             "nosuid",
             "relatime",
-            "size=8138408k",
-            "nr_inodes=2034602",
+            "size=8138412k",
+            "nr_inodes=2034603",
             "mode=755"
           ]
         },
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "1633568",
-          "kb_used": "2100",
-          "kb_available": "1631468",
+          "kb_used": "2112",
+          "kb_available": "1631456",
           "percent_used": "1%",
           "mount": "/run",
           "total_inodes": "2041956",
-          "inodes_used": "1174",
-          "inodes_available": "2040782",
+          "inodes_used": "1180",
+          "inodes_available": "2040776",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3696,13 +3655,13 @@
         "/dev/sda5,/": {
           "device": "/dev/sda5",
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "mount": "/",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3716,13 +3675,13 @@
         "tmpfs,/dev/shm": {
           "device": "tmpfs",
           "kb_size": "8167824",
-          "kb_used": "283012",
-          "kb_available": "7884812",
-          "percent_used": "4%",
+          "kb_used": "411976",
+          "kb_available": "7755848",
+          "percent_used": "6%",
           "mount": "/dev/shm",
           "total_inodes": "2041956",
-          "inodes_used": "365",
-          "inodes_available": "2041591",
+          "inodes_used": "378",
+          "inodes_available": "2041578",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3772,6 +3731,97 @@
             "mode=755"
           ]
         },
+        "/dev/loop0,/snap/spotify/13": {
+          "device": "/dev/loop0",
+          "kb_size": "166016",
+          "kb_used": "166016",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/spotify/13",
+          "total_inodes": "23686",
+          "inodes_used": "23686",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop1,/snap/slack/6": {
+          "device": "/dev/loop1",
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/slack/6",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop2,/snap/slack/5": {
+          "device": "/dev/loop2",
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/slack/5",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop3,/snap/core/4407": {
+          "device": "/dev/loop3",
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/core/4407",
+          "total_inodes": "12817",
+          "inodes_used": "12817",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop4,/snap/core/4486": {
+          "device": "/dev/loop4",
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/core/4486",
+          "total_inodes": "12819",
+          "inodes_used": "12819",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop5,/snap/core/4206": {
+          "device": "/dev/loop5",
+          "kb_size": "83712",
+          "kb_used": "83712",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/core/4206",
+          "total_inodes": "12826",
+          "inodes_used": "12826",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop6,/snap/shotcut/21": {
+          "device": "/dev/loop6",
+          "kb_size": "130688",
+          "kb_used": "130688",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/shotcut/21",
+          "total_inodes": "25031",
+          "inodes_used": "25031",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
         "/dev/loop7,/snap/canonical-livepatch/39": {
           "device": "/dev/loop7",
           "kb_size": "5120",
@@ -3785,47 +3835,8 @@
           "inodes_percent_used": "100%",
           "fs_type": "squashfs"
         },
-        "/dev/loop2,/snap/core/4486": {
-          "device": "/dev/loop2",
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/core/4486",
-          "total_inodes": "12819",
-          "inodes_used": "12819",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop4,/snap/slack/5": {
-          "device": "/dev/loop4",
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/slack/5",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop0,/snap/slack/6": {
-          "device": "/dev/loop0",
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/slack/6",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop1,/snap/spotify/6": {
-          "device": "/dev/loop1",
+        "/dev/loop8,/snap/spotify/6": {
+          "device": "/dev/loop8",
           "kb_size": "166528",
           "kb_used": "166528",
           "kb_available": "0",
@@ -3833,58 +3844,6 @@
           "mount": "/snap/spotify/6",
           "total_inodes": "24750",
           "inodes_used": "24750",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop3,/snap/spotify/13": {
-          "device": "/dev/loop3",
-          "kb_size": "166016",
-          "kb_used": "166016",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/spotify/13",
-          "total_inodes": "23686",
-          "inodes_used": "23686",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop5,/snap/core/4407": {
-          "device": "/dev/loop5",
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/core/4407",
-          "total_inodes": "12817",
-          "inodes_used": "12817",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop6,/snap/core/4206": {
-          "device": "/dev/loop6",
-          "kb_size": "83712",
-          "kb_used": "83712",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/core/4206",
-          "total_inodes": "12826",
-          "inodes_used": "12826",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop8,/snap/shotcut/21": {
-          "device": "/dev/loop8",
-          "kb_size": "130688",
-          "kb_used": "130688",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/shotcut/21",
-          "total_inodes": "25031",
-          "inodes_used": "25031",
           "inodes_available": "0",
           "inodes_percent_used": "100%",
           "fs_type": "squashfs"
@@ -3932,13 +3891,13 @@
         "tmpfs,/run/user/125": {
           "device": "tmpfs",
           "kb_size": "1633564",
-          "kb_used": "16",
-          "kb_available": "1633548",
+          "kb_used": "20",
+          "kb_available": "1633544",
           "percent_used": "1%",
           "mount": "/run/user/125",
           "total_inodes": "2041956",
-          "inodes_used": "24",
-          "inodes_available": "2041932",
+          "inodes_used": "25",
+          "inodes_available": "2041931",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3955,13 +3914,13 @@
         "tmpfs,/run/user/1000": {
           "device": "tmpfs",
           "kb_size": "1633564",
-          "kb_used": "64",
-          "kb_available": "1633500",
+          "kb_used": "72",
+          "kb_available": "1633492",
           "percent_used": "1%",
           "mount": "/run/user/1000",
           "total_inodes": "2041956",
-          "inodes_used": "53",
-          "inodes_available": "2041903",
+          "inodes_used": "55",
+          "inodes_available": "2041901",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3978,27 +3937,14 @@
         "/home/cees/.Private,/home/cees": {
           "device": "/home/cees/.Private",
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "mount": "/home/cees",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%"
-        },
-        "/dev/loop9,/mnt": {
-          "device": "/dev/loop9",
-          "kb_size": "19584",
-          "kb_used": "19584",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/mnt",
-          "total_inodes": "1125",
-          "inodes_used": "1125",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
         },
         "sysfs,/sys": {
           "device": "sysfs",
@@ -4101,9 +4047,9 @@
             "relatime"
           ]
         },
-        "cgroup,/sys/fs/cgroup/pids": {
+        "cgroup,/sys/fs/cgroup/cpu,cpuacct": {
           "device": "cgroup",
-          "mount": "/sys/fs/cgroup/pids",
+          "mount": "/sys/fs/cgroup/cpu,cpuacct",
           "fs_type": "cgroup",
           "mount_options": [
             "rw",
@@ -4111,86 +4057,8 @@
             "nodev",
             "noexec",
             "relatime",
-            "pids"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/perf_event": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/perf_event",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "perf_event"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/net_cls,net_prio": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/net_cls,net_prio",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "net_cls",
-            "net_prio"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/hugetlb": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/hugetlb",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "hugetlb"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/devices": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/devices",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "devices"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/rdma": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/rdma",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "rdma"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/cpuset": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/cpuset",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "cpuset"
+            "cpu",
+            "cpuacct"
           ]
         },
         "cgroup,/sys/fs/cgroup/blkio": {
@@ -4219,20 +4087,6 @@
             "freezer"
           ]
         },
-        "cgroup,/sys/fs/cgroup/cpu,cpuacct": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/cpu,cpuacct",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "cpu",
-            "cpuacct"
-          ]
-        },
         "cgroup,/sys/fs/cgroup/memory": {
           "device": "cgroup",
           "mount": "/sys/fs/cgroup/memory",
@@ -4246,6 +4100,98 @@
             "memory"
           ]
         },
+        "cgroup,/sys/fs/cgroup/hugetlb": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/hugetlb",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "hugetlb"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/net_cls,net_prio": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/net_cls,net_prio",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "net_cls",
+            "net_prio"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/devices": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/devices",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "devices"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/rdma": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/rdma",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "rdma"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/pids": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/pids",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "pids"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/perf_event": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/perf_event",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "perf_event"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/cpuset": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/cpuset",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "cpuset"
+          ]
+        },
         "systemd-1,/proc/sys/fs/binfmt_misc": {
           "device": "systemd-1",
           "mount": "/proc/sys/fs/binfmt_misc",
@@ -4253,22 +4199,13 @@
           "mount_options": [
             "rw",
             "relatime",
-            "fd=24",
+            "fd=27",
             "pgrp=1",
             "timeout=0",
             "minproto=5",
             "maxproto=5",
             "direct",
-            "pipe_ino=19830"
-          ]
-        },
-        "debugfs,/sys/kernel/debug": {
-          "device": "debugfs",
-          "mount": "/sys/kernel/debug",
-          "fs_type": "debugfs",
-          "mount_options": [
-            "rw",
-            "relatime"
+            "pipe_ino=18820"
           ]
         },
         "hugetlbfs,/dev/hugepages": {
@@ -4285,6 +4222,15 @@
           "device": "mqueue",
           "mount": "/dev/mqueue",
           "fs_type": "mqueue",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ]
+        },
+        "debugfs,/sys/kernel/debug": {
+          "device": "debugfs",
+          "mount": "/sys/kernel/debug",
+          "fs_type": "debugfs",
           "mount_options": [
             "rw",
             "relatime"
@@ -4308,31 +4254,9 @@
             "relatime"
           ]
         },
-        "/var/lib/snapd/snaps/canonical-livepatch_39.snap,/snap/canonical-livepatch/39": {
-          "device": "/var/lib/snapd/snaps/canonical-livepatch_39.snap",
-          "mount": "/snap/canonical-livepatch/39",
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/var/lib/snapd/snaps/core_4486.snap,/snap/core/4486": {
-          "device": "/var/lib/snapd/snaps/core_4486.snap",
-          "mount": "/snap/core/4486",
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/var/lib/snapd/snaps/slack_5.snap,/snap/slack/5": {
-          "device": "/var/lib/snapd/snaps/slack_5.snap",
-          "mount": "/snap/slack/5",
+        "/var/lib/snapd/snaps/spotify_13.snap,/snap/spotify/13": {
+          "device": "/var/lib/snapd/snaps/spotify_13.snap",
+          "mount": "/snap/spotify/13",
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -4352,20 +4276,9 @@
             "x-gdu.hide"
           ]
         },
-        "/var/lib/snapd/snaps/spotify_6.snap,/snap/spotify/6": {
-          "device": "/var/lib/snapd/snaps/spotify_6.snap",
-          "mount": "/snap/spotify/6",
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/var/lib/snapd/snaps/spotify_13.snap,/snap/spotify/13": {
-          "device": "/var/lib/snapd/snaps/spotify_13.snap",
-          "mount": "/snap/spotify/13",
+        "/var/lib/snapd/snaps/slack_5.snap,/snap/slack/5": {
+          "device": "/var/lib/snapd/snaps/slack_5.snap",
+          "mount": "/snap/slack/5",
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -4377,6 +4290,17 @@
         "/var/lib/snapd/snaps/core_4407.snap,/snap/core/4407": {
           "device": "/var/lib/snapd/snaps/core_4407.snap",
           "mount": "/snap/core/4407",
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/var/lib/snapd/snaps/core_4486.snap,/snap/core/4486": {
+          "device": "/var/lib/snapd/snaps/core_4486.snap",
+          "mount": "/snap/core/4486",
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -4398,6 +4322,28 @@
         "/var/lib/snapd/snaps/shotcut_21.snap,/snap/shotcut/21": {
           "device": "/var/lib/snapd/snaps/shotcut_21.snap",
           "mount": "/snap/shotcut/21",
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/var/lib/snapd/snaps/canonical-livepatch_39.snap,/snap/canonical-livepatch/39": {
+          "device": "/var/lib/snapd/snaps/canonical-livepatch_39.snap",
+          "mount": "/snap/canonical-livepatch/39",
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/var/lib/snapd/snaps/spotify_6.snap,/snap/spotify/6": {
+          "device": "/var/lib/snapd/snaps/spotify_6.snap",
+          "mount": "/snap/spotify/6",
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -4428,6 +4374,23 @@
             "mode=755"
           ]
         },
+        "tracefs,/sys/kernel/debug/tracing": {
+          "device": "tracefs",
+          "mount": "/sys/kernel/debug/tracing",
+          "fs_type": "tracefs",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ]
+        },
+        "nsfs,/run/snapd/ns/canonical-livepatch.mnt": {
+          "device": "nsfs",
+          "mount": "/run/snapd/ns/canonical-livepatch.mnt",
+          "fs_type": "nsfs",
+          "mount_options": [
+            "rw"
+          ]
+        },
         "/dev/sda5,/var/lib/docker/plugins": {
           "device": "/dev/sda5",
           "mount": "/var/lib/docker/plugins",
@@ -4440,15 +4403,6 @@
           ],
           "uuid": "260c4b87-cc12-44e1-b64f-ffc59d4943c3"
         },
-        "tracefs,/sys/kernel/debug/tracing": {
-          "device": "tracefs",
-          "mount": "/sys/kernel/debug/tracing",
-          "fs_type": "tracefs",
-          "mount_options": [
-            "rw",
-            "relatime"
-          ]
-        },
         "/dev/sda5,/var/lib/docker/overlay2": {
           "device": "/dev/sda5",
           "mount": "/var/lib/docker/overlay2",
@@ -4460,14 +4414,6 @@
             "data=ordered"
           ],
           "uuid": "260c4b87-cc12-44e1-b64f-ffc59d4943c3"
-        },
-        "nsfs,/run/snapd/ns/canonical-livepatch.mnt": {
-          "device": "nsfs",
-          "mount": "/run/snapd/ns/canonical-livepatch.mnt",
-          "fs_type": "nsfs",
-          "mount_options": [
-            "rw"
-          ]
         },
         "/home/.ecryptfs/cees/.Private,/home/cees": {
           "device": "/home/.ecryptfs/cees/.Private",
@@ -4525,15 +4471,6 @@
             "group_id=1000"
           ]
         },
-        "/home/cees/tmp/nerves/hello_nerves/_build/rpi3/dev/nerves/images/data/rootfs.img,/mnt": {
-          "device": "/home/cees/tmp/nerves/hello_nerves/_build/rpi3/dev/nerves/images/data/rootfs.img",
-          "mount": "/mnt",
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "relatime"
-          ]
-        },
         "/dev/sda,": {
           "device": "/dev/sda"
         },
@@ -4551,7 +4488,7 @@
         "/dev/mapper/cryptswap1,": {
           "device": "/dev/mapper/cryptswap1",
           "fs_type": "swap",
-          "uuid": "ccf411ca-62fb-4c2f-bdf5-a36403a9e1e2"
+          "uuid": "93a4762f-a1b2-48bc-a9c4-5da5b068e7cd"
         },
         "/dev/sda2,": {
           "device": "/dev/sda2",
@@ -4568,21 +4505,21 @@
     "filesystem2": {
       "by_device": {
         "udev": {
-          "kb_size": "8138408",
+          "kb_size": "8138412",
           "kb_used": "0",
-          "kb_available": "8138408",
+          "kb_available": "8138412",
           "percent_used": "0%",
-          "total_inodes": "2034602",
-          "inodes_used": "599",
-          "inodes_available": "2034003",
+          "total_inodes": "2034603",
+          "inodes_used": "597",
+          "inodes_available": "2034006",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
             "rw",
             "nosuid",
             "relatime",
-            "size=8138408k",
-            "nr_inodes=2034602",
+            "size=8138412k",
+            "nr_inodes=2034603",
             "mode=755"
           ],
           "mounts": [
@@ -4591,12 +4528,12 @@
         },
         "tmpfs": {
           "kb_size": "1633564",
-          "kb_used": "64",
-          "kb_available": "1633500",
+          "kb_used": "72",
+          "kb_available": "1633492",
           "percent_used": "1%",
           "total_inodes": "2041956",
-          "inodes_used": "53",
-          "inodes_available": "2041903",
+          "inodes_used": "55",
+          "inodes_available": "2041901",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4619,12 +4556,12 @@
         },
         "/dev/sda5": {
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -4638,6 +4575,104 @@
             "/",
             "/var/lib/docker/plugins",
             "/var/lib/docker/overlay2"
+          ]
+        },
+        "/dev/loop0": {
+          "kb_size": "166016",
+          "kb_used": "166016",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "23686",
+          "inodes_used": "23686",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/spotify/13"
+          ]
+        },
+        "/dev/loop1": {
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/slack/6"
+          ]
+        },
+        "/dev/loop2": {
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/slack/5"
+          ]
+        },
+        "/dev/loop3": {
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12817",
+          "inodes_used": "12817",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/core/4407"
+          ]
+        },
+        "/dev/loop4": {
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12819",
+          "inodes_used": "12819",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/core/4486"
+          ]
+        },
+        "/dev/loop5": {
+          "kb_size": "83712",
+          "kb_used": "83712",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12826",
+          "inodes_used": "12826",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/core/4206"
+          ]
+        },
+        "/dev/loop6": {
+          "kb_size": "130688",
+          "kb_used": "130688",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "25031",
+          "inodes_used": "25031",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "mounts": [
+            "/snap/shotcut/21"
           ]
         },
         "/dev/loop7": {
@@ -4654,49 +4689,7 @@
             "/snap/canonical-livepatch/39"
           ]
         },
-        "/dev/loop2": {
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12819",
-          "inodes_used": "12819",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/core/4486"
-          ]
-        },
-        "/dev/loop4": {
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/slack/5"
-          ]
-        },
-        "/dev/loop0": {
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/slack/6"
-          ]
-        },
-        "/dev/loop1": {
+        "/dev/loop8": {
           "kb_size": "166528",
           "kb_used": "166528",
           "kb_available": "0",
@@ -4708,62 +4701,6 @@
           "fs_type": "squashfs",
           "mounts": [
             "/snap/spotify/6"
-          ]
-        },
-        "/dev/loop3": {
-          "kb_size": "166016",
-          "kb_used": "166016",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "23686",
-          "inodes_used": "23686",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/spotify/13"
-          ]
-        },
-        "/dev/loop5": {
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12817",
-          "inodes_used": "12817",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/core/4407"
-          ]
-        },
-        "/dev/loop6": {
-          "kb_size": "83712",
-          "kb_used": "83712",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12826",
-          "inodes_used": "12826",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/core/4206"
-          ]
-        },
-        "/dev/loop8": {
-          "kb_size": "130688",
-          "kb_used": "130688",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "25031",
-          "inodes_used": "25031",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/snap/shotcut/21"
           ]
         },
         "/dev/sda7": {
@@ -4810,29 +4747,15 @@
         },
         "/home/cees/.Private": {
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "mounts": [
             "/home/cees"
-          ]
-        },
-        "/dev/loop9": {
-          "kb_size": "19584",
-          "kb_used": "19584",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1125",
-          "inodes_used": "1125",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "mounts": [
-            "/mnt"
           ]
         },
         "sysfs": {
@@ -4897,22 +4820,22 @@
             "nodev",
             "noexec",
             "relatime",
-            "memory"
+            "cpuset"
           ],
           "mounts": [
             "/sys/fs/cgroup/unified",
             "/sys/fs/cgroup/systemd",
-            "/sys/fs/cgroup/pids",
-            "/sys/fs/cgroup/perf_event",
-            "/sys/fs/cgroup/net_cls,net_prio",
-            "/sys/fs/cgroup/hugetlb",
-            "/sys/fs/cgroup/devices",
-            "/sys/fs/cgroup/rdma",
-            "/sys/fs/cgroup/cpuset",
+            "/sys/fs/cgroup/cpu,cpuacct",
             "/sys/fs/cgroup/blkio",
             "/sys/fs/cgroup/freezer",
-            "/sys/fs/cgroup/cpu,cpuacct",
-            "/sys/fs/cgroup/memory"
+            "/sys/fs/cgroup/memory",
+            "/sys/fs/cgroup/hugetlb",
+            "/sys/fs/cgroup/net_cls,net_prio",
+            "/sys/fs/cgroup/devices",
+            "/sys/fs/cgroup/rdma",
+            "/sys/fs/cgroup/pids",
+            "/sys/fs/cgroup/perf_event",
+            "/sys/fs/cgroup/cpuset"
           ]
         },
         "pstore": {
@@ -4946,26 +4869,16 @@
           "mount_options": [
             "rw",
             "relatime",
-            "fd=24",
+            "fd=27",
             "pgrp=1",
             "timeout=0",
             "minproto=5",
             "maxproto=5",
             "direct",
-            "pipe_ino=19830"
+            "pipe_ino=18820"
           ],
           "mounts": [
             "/proc/sys/fs/binfmt_misc"
-          ]
-        },
-        "debugfs": {
-          "fs_type": "debugfs",
-          "mount_options": [
-            "rw",
-            "relatime"
-          ],
-          "mounts": [
-            "/sys/kernel/debug"
           ]
         },
         "hugetlbfs": {
@@ -4989,6 +4902,16 @@
             "/dev/mqueue"
           ]
         },
+        "debugfs": {
+          "fs_type": "debugfs",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ],
+          "mounts": [
+            "/sys/kernel/debug"
+          ]
+        },
         "fusectl": {
           "fs_type": "fusectl",
           "mount_options": [
@@ -5009,7 +4932,7 @@
             "/sys/kernel/config"
           ]
         },
-        "/var/lib/snapd/snaps/canonical-livepatch_39.snap": {
+        "/var/lib/snapd/snaps/spotify_13.snap": {
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -5018,31 +4941,7 @@
             "x-gdu.hide"
           ],
           "mounts": [
-            "/snap/canonical-livepatch/39"
-          ]
-        },
-        "/var/lib/snapd/snaps/core_4486.snap": {
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ],
-          "mounts": [
-            "/snap/core/4486"
-          ]
-        },
-        "/var/lib/snapd/snaps/slack_5.snap": {
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ],
-          "mounts": [
-            "/snap/slack/5"
+            "/snap/spotify/13"
           ]
         },
         "/var/lib/snapd/snaps/slack_6.snap": {
@@ -5057,7 +4956,7 @@
             "/snap/slack/6"
           ]
         },
-        "/var/lib/snapd/snaps/spotify_6.snap": {
+        "/var/lib/snapd/snaps/slack_5.snap": {
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -5066,19 +4965,7 @@
             "x-gdu.hide"
           ],
           "mounts": [
-            "/snap/spotify/6"
-          ]
-        },
-        "/var/lib/snapd/snaps/spotify_13.snap": {
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ],
-          "mounts": [
-            "/snap/spotify/13"
+            "/snap/slack/5"
           ]
         },
         "/var/lib/snapd/snaps/core_4407.snap": {
@@ -5091,6 +4978,18 @@
           ],
           "mounts": [
             "/snap/core/4407"
+          ]
+        },
+        "/var/lib/snapd/snaps/core_4486.snap": {
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ],
+          "mounts": [
+            "/snap/core/4486"
           ]
         },
         "/var/lib/snapd/snaps/core_4206.snap": {
@@ -5114,6 +5013,30 @@
           ],
           "mounts": [
             "/snap/shotcut/21"
+          ]
+        },
+        "/var/lib/snapd/snaps/canonical-livepatch_39.snap": {
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ],
+          "mounts": [
+            "/snap/canonical-livepatch/39"
+          ]
+        },
+        "/var/lib/snapd/snaps/spotify_6.snap": {
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ],
+          "mounts": [
+            "/snap/spotify/6"
           ]
         },
         "binfmt_misc": {
@@ -5205,16 +5128,6 @@
             "/run/user/1000/keybase/kbfs"
           ]
         },
-        "/home/cees/tmp/nerves/hello_nerves/_build/rpi3/dev/nerves/images/data/rootfs.img": {
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "relatime"
-          ],
-          "mounts": [
-            "/mnt"
-          ]
-        },
         "/dev/sda": {
 
         },
@@ -5230,7 +5143,7 @@
         },
         "/dev/mapper/cryptswap1": {
           "fs_type": "swap",
-          "uuid": "ccf411ca-62fb-4c2f-bdf5-a36403a9e1e2"
+          "uuid": "93a4762f-a1b2-48bc-a9c4-5da5b068e7cd"
         },
         "/dev/sda2": {
           "fs_type": "hfsplus",
@@ -5243,21 +5156,21 @@
       },
       "by_mountpoint": {
         "/dev": {
-          "kb_size": "8138408",
+          "kb_size": "8138412",
           "kb_used": "0",
-          "kb_available": "8138408",
+          "kb_available": "8138412",
           "percent_used": "0%",
-          "total_inodes": "2034602",
-          "inodes_used": "599",
-          "inodes_available": "2034003",
+          "total_inodes": "2034603",
+          "inodes_used": "597",
+          "inodes_available": "2034006",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
             "rw",
             "nosuid",
             "relatime",
-            "size=8138408k",
-            "nr_inodes=2034602",
+            "size=8138412k",
+            "nr_inodes=2034603",
             "mode=755"
           ],
           "devices": [
@@ -5266,12 +5179,12 @@
         },
         "/run": {
           "kb_size": "1633568",
-          "kb_used": "2100",
-          "kb_available": "1631468",
+          "kb_used": "2112",
+          "kb_available": "1631456",
           "percent_used": "1%",
           "total_inodes": "2041956",
-          "inodes_used": "1174",
-          "inodes_available": "2040782",
+          "inodes_used": "1180",
+          "inodes_available": "2040776",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -5288,12 +5201,12 @@
         },
         "/": {
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -5309,12 +5222,12 @@
         },
         "/dev/shm": {
           "kb_size": "8167824",
-          "kb_used": "283012",
-          "kb_available": "7884812",
-          "percent_used": "4%",
+          "kb_used": "411976",
+          "kb_available": "7755848",
+          "percent_used": "6%",
           "total_inodes": "2041956",
-          "inodes_used": "365",
-          "inodes_available": "2041591",
+          "inodes_used": "378",
+          "inodes_available": "2041578",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -5369,6 +5282,152 @@
             "tmpfs"
           ]
         },
+        "/snap/spotify/13": {
+          "kb_size": "166016",
+          "kb_used": "166016",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "23686",
+          "inodes_used": "23686",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop0",
+            "/var/lib/snapd/snaps/spotify_13.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/slack/6": {
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop1",
+            "/var/lib/snapd/snaps/slack_6.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/slack/5": {
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop2",
+            "/var/lib/snapd/snaps/slack_5.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/core/4407": {
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12817",
+          "inodes_used": "12817",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop3",
+            "/var/lib/snapd/snaps/core_4407.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/core/4486": {
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12819",
+          "inodes_used": "12819",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop4",
+            "/var/lib/snapd/snaps/core_4486.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/snap/core/4206": {
+          "kb_size": "83712",
+          "kb_used": "83712",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "12826",
+          "inodes_used": "12826",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop5",
+            "/var/lib/snapd/snaps/core_4206.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime"
+          ]
+        },
+        "/snap/shotcut/21": {
+          "kb_size": "130688",
+          "kb_used": "130688",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "total_inodes": "25031",
+          "inodes_used": "25031",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs",
+          "devices": [
+            "/dev/loop6",
+            "/var/lib/snapd/snaps/shotcut_21.snap"
+          ],
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
         "/snap/canonical-livepatch/39": {
           "kb_size": "5120",
           "kb_used": "5120",
@@ -5390,69 +5449,6 @@
             "x-gdu.hide"
           ]
         },
-        "/snap/core/4486": {
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12819",
-          "inodes_used": "12819",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop2",
-            "/var/lib/snapd/snaps/core_4486.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/slack/5": {
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop4",
-            "/var/lib/snapd/snaps/slack_5.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/slack/6": {
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop0",
-            "/var/lib/snapd/snaps/slack_6.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
         "/snap/spotify/6": {
           "kb_size": "166528",
           "kb_used": "166528",
@@ -5464,91 +5460,8 @@
           "inodes_percent_used": "100%",
           "fs_type": "squashfs",
           "devices": [
-            "/dev/loop1",
-            "/var/lib/snapd/snaps/spotify_6.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/spotify/13": {
-          "kb_size": "166016",
-          "kb_used": "166016",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "23686",
-          "inodes_used": "23686",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop3",
-            "/var/lib/snapd/snaps/spotify_13.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/core/4407": {
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12817",
-          "inodes_used": "12817",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop5",
-            "/var/lib/snapd/snaps/core_4407.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/snap/core/4206": {
-          "kb_size": "83712",
-          "kb_used": "83712",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "12826",
-          "inodes_used": "12826",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop6",
-            "/var/lib/snapd/snaps/core_4206.snap"
-          ],
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime"
-          ]
-        },
-        "/snap/shotcut/21": {
-          "kb_size": "130688",
-          "kb_used": "130688",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "25031",
-          "inodes_used": "25031",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
             "/dev/loop8",
-            "/var/lib/snapd/snaps/shotcut_21.snap"
+            "/var/lib/snapd/snaps/spotify_6.snap"
           ],
           "mount_options": [
             "ro",
@@ -5601,12 +5514,12 @@
         },
         "/run/user/125": {
           "kb_size": "1633564",
-          "kb_used": "16",
-          "kb_available": "1633548",
+          "kb_used": "20",
+          "kb_available": "1633544",
           "percent_used": "1%",
           "total_inodes": "2041956",
-          "inodes_used": "24",
-          "inodes_available": "2041932",
+          "inodes_used": "25",
+          "inodes_available": "2041931",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -5625,12 +5538,12 @@
         },
         "/run/user/1000": {
           "kb_size": "1633564",
-          "kb_used": "64",
-          "kb_available": "1633500",
+          "kb_used": "72",
+          "kb_available": "1633492",
           "percent_used": "1%",
           "total_inodes": "2041956",
-          "inodes_used": "53",
-          "inodes_available": "2041903",
+          "inodes_used": "55",
+          "inodes_available": "2041901",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -5649,12 +5562,12 @@
         },
         "/home/cees": {
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "devices": [
             "/home/cees/.Private",
@@ -5671,25 +5584,6 @@
             "ecryptfs_cipher=aes",
             "ecryptfs_key_bytes=16",
             "ecryptfs_unlink_sigs"
-          ]
-        },
-        "/mnt": {
-          "kb_size": "19584",
-          "kb_used": "19584",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "total_inodes": "1125",
-          "inodes_used": "1125",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs",
-          "devices": [
-            "/dev/loop9",
-            "/home/cees/tmp/nerves/hello_nerves/_build/rpi3/dev/nerves/images/data/rootfs.img"
-          ],
-          "mount_options": [
-            "ro",
-            "relatime"
           ]
         },
         "/sys": {
@@ -5801,7 +5695,7 @@
             "efivarfs"
           ]
         },
-        "/sys/fs/cgroup/pids": {
+        "/sys/fs/cgroup/cpu,cpuacct": {
           "fs_type": "cgroup",
           "mount_options": [
             "rw",
@@ -5809,92 +5703,8 @@
             "nodev",
             "noexec",
             "relatime",
-            "pids"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/perf_event": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "perf_event"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/net_cls,net_prio": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "net_cls",
-            "net_prio"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/hugetlb": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "hugetlb"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/devices": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "devices"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/rdma": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "rdma"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
-        "/sys/fs/cgroup/cpuset": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "cpuset"
+            "cpu",
+            "cpuacct"
           ],
           "devices": [
             "cgroup"
@@ -5928,21 +5738,6 @@
             "cgroup"
           ]
         },
-        "/sys/fs/cgroup/cpu,cpuacct": {
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "cpu",
-            "cpuacct"
-          ],
-          "devices": [
-            "cgroup"
-          ]
-        },
         "/sys/fs/cgroup/memory": {
           "fs_type": "cgroup",
           "mount_options": [
@@ -5957,6 +5752,105 @@
             "cgroup"
           ]
         },
+        "/sys/fs/cgroup/hugetlb": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "hugetlb"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/net_cls,net_prio": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "net_cls",
+            "net_prio"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/devices": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "devices"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/rdma": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "rdma"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/pids": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "pids"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/perf_event": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "perf_event"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/cpuset": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "cpuset"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
         "/proc/sys/fs/binfmt_misc": {
           "fs_type": "binfmt_misc",
           "mount_options": [
@@ -5966,16 +5860,6 @@
           "devices": [
             "systemd-1",
             "binfmt_misc"
-          ]
-        },
-        "/sys/kernel/debug": {
-          "fs_type": "debugfs",
-          "mount_options": [
-            "rw",
-            "relatime"
-          ],
-          "devices": [
-            "debugfs"
           ]
         },
         "/dev/hugepages": {
@@ -5997,6 +5881,16 @@
           ],
           "devices": [
             "mqueue"
+          ]
+        },
+        "/sys/kernel/debug": {
+          "fs_type": "debugfs",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ],
+          "devices": [
+            "debugfs"
           ]
         },
         "/sys/fs/fuse/connections": {
@@ -6033,6 +5927,25 @@
             "tmpfs"
           ]
         },
+        "/sys/kernel/debug/tracing": {
+          "fs_type": "tracefs",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ],
+          "devices": [
+            "tracefs"
+          ]
+        },
+        "/run/snapd/ns/canonical-livepatch.mnt": {
+          "fs_type": "nsfs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "nsfs"
+          ]
+        },
         "/var/lib/docker/plugins": {
           "fs_type": "ext4",
           "mount_options": [
@@ -6046,16 +5959,6 @@
             "/dev/sda5"
           ]
         },
-        "/sys/kernel/debug/tracing": {
-          "fs_type": "tracefs",
-          "mount_options": [
-            "rw",
-            "relatime"
-          ],
-          "devices": [
-            "tracefs"
-          ]
-        },
         "/var/lib/docker/overlay2": {
           "fs_type": "ext4",
           "mount_options": [
@@ -6067,15 +5970,6 @@
           "uuid": "260c4b87-cc12-44e1-b64f-ffc59d4943c3",
           "devices": [
             "/dev/sda5"
-          ]
-        },
-        "/run/snapd/ns/canonical-livepatch.mnt": {
-          "fs_type": "nsfs",
-          "mount_options": [
-            "rw"
-          ],
-          "devices": [
-            "nsfs"
           ]
         },
         "/run/user/1000/gvfs": {
@@ -6125,35 +6019,35 @@
       "by_pair": {
         "udev,/dev": {
           "device": "udev",
-          "kb_size": "8138408",
+          "kb_size": "8138412",
           "kb_used": "0",
-          "kb_available": "8138408",
+          "kb_available": "8138412",
           "percent_used": "0%",
           "mount": "/dev",
-          "total_inodes": "2034602",
-          "inodes_used": "599",
-          "inodes_available": "2034003",
+          "total_inodes": "2034603",
+          "inodes_used": "597",
+          "inodes_available": "2034006",
           "inodes_percent_used": "1%",
           "fs_type": "devtmpfs",
           "mount_options": [
             "rw",
             "nosuid",
             "relatime",
-            "size=8138408k",
-            "nr_inodes=2034602",
+            "size=8138412k",
+            "nr_inodes=2034603",
             "mode=755"
           ]
         },
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "1633568",
-          "kb_used": "2100",
-          "kb_available": "1631468",
+          "kb_used": "2112",
+          "kb_available": "1631456",
           "percent_used": "1%",
           "mount": "/run",
           "total_inodes": "2041956",
-          "inodes_used": "1174",
-          "inodes_available": "2040782",
+          "inodes_used": "1180",
+          "inodes_available": "2040776",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -6168,13 +6062,13 @@
         "/dev/sda5,/": {
           "device": "/dev/sda5",
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "mount": "/",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%",
           "fs_type": "ext4",
           "mount_options": [
@@ -6188,13 +6082,13 @@
         "tmpfs,/dev/shm": {
           "device": "tmpfs",
           "kb_size": "8167824",
-          "kb_used": "283012",
-          "kb_available": "7884812",
-          "percent_used": "4%",
+          "kb_used": "411976",
+          "kb_available": "7755848",
+          "percent_used": "6%",
           "mount": "/dev/shm",
           "total_inodes": "2041956",
-          "inodes_used": "365",
-          "inodes_available": "2041591",
+          "inodes_used": "378",
+          "inodes_available": "2041578",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -6244,6 +6138,97 @@
             "mode=755"
           ]
         },
+        "/dev/loop0,/snap/spotify/13": {
+          "device": "/dev/loop0",
+          "kb_size": "166016",
+          "kb_used": "166016",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/spotify/13",
+          "total_inodes": "23686",
+          "inodes_used": "23686",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop1,/snap/slack/6": {
+          "device": "/dev/loop1",
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/slack/6",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop2,/snap/slack/5": {
+          "device": "/dev/loop2",
+          "kb_size": "95872",
+          "kb_used": "95872",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/slack/5",
+          "total_inodes": "1696",
+          "inodes_used": "1696",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop3,/snap/core/4407": {
+          "device": "/dev/loop3",
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/core/4407",
+          "total_inodes": "12817",
+          "inodes_used": "12817",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop4,/snap/core/4486": {
+          "device": "/dev/loop4",
+          "kb_size": "88704",
+          "kb_used": "88704",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/core/4486",
+          "total_inodes": "12819",
+          "inodes_used": "12819",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop5,/snap/core/4206": {
+          "device": "/dev/loop5",
+          "kb_size": "83712",
+          "kb_used": "83712",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/core/4206",
+          "total_inodes": "12826",
+          "inodes_used": "12826",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
+        "/dev/loop6,/snap/shotcut/21": {
+          "device": "/dev/loop6",
+          "kb_size": "130688",
+          "kb_used": "130688",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "mount": "/snap/shotcut/21",
+          "total_inodes": "25031",
+          "inodes_used": "25031",
+          "inodes_available": "0",
+          "inodes_percent_used": "100%",
+          "fs_type": "squashfs"
+        },
         "/dev/loop7,/snap/canonical-livepatch/39": {
           "device": "/dev/loop7",
           "kb_size": "5120",
@@ -6257,47 +6242,8 @@
           "inodes_percent_used": "100%",
           "fs_type": "squashfs"
         },
-        "/dev/loop2,/snap/core/4486": {
-          "device": "/dev/loop2",
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/core/4486",
-          "total_inodes": "12819",
-          "inodes_used": "12819",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop4,/snap/slack/5": {
-          "device": "/dev/loop4",
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/slack/5",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop0,/snap/slack/6": {
-          "device": "/dev/loop0",
-          "kb_size": "95872",
-          "kb_used": "95872",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/slack/6",
-          "total_inodes": "1696",
-          "inodes_used": "1696",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop1,/snap/spotify/6": {
-          "device": "/dev/loop1",
+        "/dev/loop8,/snap/spotify/6": {
+          "device": "/dev/loop8",
           "kb_size": "166528",
           "kb_used": "166528",
           "kb_available": "0",
@@ -6305,58 +6251,6 @@
           "mount": "/snap/spotify/6",
           "total_inodes": "24750",
           "inodes_used": "24750",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop3,/snap/spotify/13": {
-          "device": "/dev/loop3",
-          "kb_size": "166016",
-          "kb_used": "166016",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/spotify/13",
-          "total_inodes": "23686",
-          "inodes_used": "23686",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop5,/snap/core/4407": {
-          "device": "/dev/loop5",
-          "kb_size": "88704",
-          "kb_used": "88704",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/core/4407",
-          "total_inodes": "12817",
-          "inodes_used": "12817",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop6,/snap/core/4206": {
-          "device": "/dev/loop6",
-          "kb_size": "83712",
-          "kb_used": "83712",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/core/4206",
-          "total_inodes": "12826",
-          "inodes_used": "12826",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
-        },
-        "/dev/loop8,/snap/shotcut/21": {
-          "device": "/dev/loop8",
-          "kb_size": "130688",
-          "kb_used": "130688",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/snap/shotcut/21",
-          "total_inodes": "25031",
-          "inodes_used": "25031",
           "inodes_available": "0",
           "inodes_percent_used": "100%",
           "fs_type": "squashfs"
@@ -6404,13 +6298,13 @@
         "tmpfs,/run/user/125": {
           "device": "tmpfs",
           "kb_size": "1633564",
-          "kb_used": "16",
-          "kb_available": "1633548",
+          "kb_used": "20",
+          "kb_available": "1633544",
           "percent_used": "1%",
           "mount": "/run/user/125",
           "total_inodes": "2041956",
-          "inodes_used": "24",
-          "inodes_available": "2041932",
+          "inodes_used": "25",
+          "inodes_available": "2041931",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -6427,13 +6321,13 @@
         "tmpfs,/run/user/1000": {
           "device": "tmpfs",
           "kb_size": "1633564",
-          "kb_used": "64",
-          "kb_available": "1633500",
+          "kb_used": "72",
+          "kb_available": "1633492",
           "percent_used": "1%",
           "mount": "/run/user/1000",
           "total_inodes": "2041956",
-          "inodes_used": "53",
-          "inodes_available": "2041903",
+          "inodes_used": "55",
+          "inodes_available": "2041901",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -6450,27 +6344,14 @@
         "/home/cees/.Private,/home/cees": {
           "device": "/home/cees/.Private",
           "kb_size": "249667268",
-          "kb_used": "28348136",
-          "kb_available": "208613660",
+          "kb_used": "28063372",
+          "kb_available": "208898424",
           "percent_used": "12%",
           "mount": "/home/cees",
           "total_inodes": "15867904",
-          "inodes_used": "684502",
-          "inodes_available": "15183402",
+          "inodes_used": "695258",
+          "inodes_available": "15172646",
           "inodes_percent_used": "5%"
-        },
-        "/dev/loop9,/mnt": {
-          "device": "/dev/loop9",
-          "kb_size": "19584",
-          "kb_used": "19584",
-          "kb_available": "0",
-          "percent_used": "100%",
-          "mount": "/mnt",
-          "total_inodes": "1125",
-          "inodes_used": "1125",
-          "inodes_available": "0",
-          "inodes_percent_used": "100%",
-          "fs_type": "squashfs"
         },
         "sysfs,/sys": {
           "device": "sysfs",
@@ -6573,9 +6454,9 @@
             "relatime"
           ]
         },
-        "cgroup,/sys/fs/cgroup/pids": {
+        "cgroup,/sys/fs/cgroup/cpu,cpuacct": {
           "device": "cgroup",
-          "mount": "/sys/fs/cgroup/pids",
+          "mount": "/sys/fs/cgroup/cpu,cpuacct",
           "fs_type": "cgroup",
           "mount_options": [
             "rw",
@@ -6583,86 +6464,8 @@
             "nodev",
             "noexec",
             "relatime",
-            "pids"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/perf_event": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/perf_event",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "perf_event"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/net_cls,net_prio": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/net_cls,net_prio",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "net_cls",
-            "net_prio"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/hugetlb": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/hugetlb",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "hugetlb"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/devices": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/devices",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "devices"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/rdma": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/rdma",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "rdma"
-          ]
-        },
-        "cgroup,/sys/fs/cgroup/cpuset": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/cpuset",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "cpuset"
+            "cpu",
+            "cpuacct"
           ]
         },
         "cgroup,/sys/fs/cgroup/blkio": {
@@ -6691,20 +6494,6 @@
             "freezer"
           ]
         },
-        "cgroup,/sys/fs/cgroup/cpu,cpuacct": {
-          "device": "cgroup",
-          "mount": "/sys/fs/cgroup/cpu,cpuacct",
-          "fs_type": "cgroup",
-          "mount_options": [
-            "rw",
-            "nosuid",
-            "nodev",
-            "noexec",
-            "relatime",
-            "cpu",
-            "cpuacct"
-          ]
-        },
         "cgroup,/sys/fs/cgroup/memory": {
           "device": "cgroup",
           "mount": "/sys/fs/cgroup/memory",
@@ -6718,6 +6507,98 @@
             "memory"
           ]
         },
+        "cgroup,/sys/fs/cgroup/hugetlb": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/hugetlb",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "hugetlb"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/net_cls,net_prio": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/net_cls,net_prio",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "net_cls",
+            "net_prio"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/devices": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/devices",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "devices"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/rdma": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/rdma",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "rdma"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/pids": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/pids",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "pids"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/perf_event": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/perf_event",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "perf_event"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/cpuset": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/cpuset",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "cpuset"
+          ]
+        },
         "systemd-1,/proc/sys/fs/binfmt_misc": {
           "device": "systemd-1",
           "mount": "/proc/sys/fs/binfmt_misc",
@@ -6725,22 +6606,13 @@
           "mount_options": [
             "rw",
             "relatime",
-            "fd=24",
+            "fd=27",
             "pgrp=1",
             "timeout=0",
             "minproto=5",
             "maxproto=5",
             "direct",
-            "pipe_ino=19830"
-          ]
-        },
-        "debugfs,/sys/kernel/debug": {
-          "device": "debugfs",
-          "mount": "/sys/kernel/debug",
-          "fs_type": "debugfs",
-          "mount_options": [
-            "rw",
-            "relatime"
+            "pipe_ino=18820"
           ]
         },
         "hugetlbfs,/dev/hugepages": {
@@ -6757,6 +6629,15 @@
           "device": "mqueue",
           "mount": "/dev/mqueue",
           "fs_type": "mqueue",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ]
+        },
+        "debugfs,/sys/kernel/debug": {
+          "device": "debugfs",
+          "mount": "/sys/kernel/debug",
+          "fs_type": "debugfs",
           "mount_options": [
             "rw",
             "relatime"
@@ -6780,31 +6661,9 @@
             "relatime"
           ]
         },
-        "/var/lib/snapd/snaps/canonical-livepatch_39.snap,/snap/canonical-livepatch/39": {
-          "device": "/var/lib/snapd/snaps/canonical-livepatch_39.snap",
-          "mount": "/snap/canonical-livepatch/39",
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/var/lib/snapd/snaps/core_4486.snap,/snap/core/4486": {
-          "device": "/var/lib/snapd/snaps/core_4486.snap",
-          "mount": "/snap/core/4486",
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/var/lib/snapd/snaps/slack_5.snap,/snap/slack/5": {
-          "device": "/var/lib/snapd/snaps/slack_5.snap",
-          "mount": "/snap/slack/5",
+        "/var/lib/snapd/snaps/spotify_13.snap,/snap/spotify/13": {
+          "device": "/var/lib/snapd/snaps/spotify_13.snap",
+          "mount": "/snap/spotify/13",
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -6824,20 +6683,9 @@
             "x-gdu.hide"
           ]
         },
-        "/var/lib/snapd/snaps/spotify_6.snap,/snap/spotify/6": {
-          "device": "/var/lib/snapd/snaps/spotify_6.snap",
-          "mount": "/snap/spotify/6",
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "nodev",
-            "relatime",
-            "x-gdu.hide"
-          ]
-        },
-        "/var/lib/snapd/snaps/spotify_13.snap,/snap/spotify/13": {
-          "device": "/var/lib/snapd/snaps/spotify_13.snap",
-          "mount": "/snap/spotify/13",
+        "/var/lib/snapd/snaps/slack_5.snap,/snap/slack/5": {
+          "device": "/var/lib/snapd/snaps/slack_5.snap",
+          "mount": "/snap/slack/5",
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -6849,6 +6697,17 @@
         "/var/lib/snapd/snaps/core_4407.snap,/snap/core/4407": {
           "device": "/var/lib/snapd/snaps/core_4407.snap",
           "mount": "/snap/core/4407",
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/var/lib/snapd/snaps/core_4486.snap,/snap/core/4486": {
+          "device": "/var/lib/snapd/snaps/core_4486.snap",
+          "mount": "/snap/core/4486",
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -6870,6 +6729,28 @@
         "/var/lib/snapd/snaps/shotcut_21.snap,/snap/shotcut/21": {
           "device": "/var/lib/snapd/snaps/shotcut_21.snap",
           "mount": "/snap/shotcut/21",
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/var/lib/snapd/snaps/canonical-livepatch_39.snap,/snap/canonical-livepatch/39": {
+          "device": "/var/lib/snapd/snaps/canonical-livepatch_39.snap",
+          "mount": "/snap/canonical-livepatch/39",
+          "fs_type": "squashfs",
+          "mount_options": [
+            "ro",
+            "nodev",
+            "relatime",
+            "x-gdu.hide"
+          ]
+        },
+        "/var/lib/snapd/snaps/spotify_6.snap,/snap/spotify/6": {
+          "device": "/var/lib/snapd/snaps/spotify_6.snap",
+          "mount": "/snap/spotify/6",
           "fs_type": "squashfs",
           "mount_options": [
             "ro",
@@ -6900,6 +6781,23 @@
             "mode=755"
           ]
         },
+        "tracefs,/sys/kernel/debug/tracing": {
+          "device": "tracefs",
+          "mount": "/sys/kernel/debug/tracing",
+          "fs_type": "tracefs",
+          "mount_options": [
+            "rw",
+            "relatime"
+          ]
+        },
+        "nsfs,/run/snapd/ns/canonical-livepatch.mnt": {
+          "device": "nsfs",
+          "mount": "/run/snapd/ns/canonical-livepatch.mnt",
+          "fs_type": "nsfs",
+          "mount_options": [
+            "rw"
+          ]
+        },
         "/dev/sda5,/var/lib/docker/plugins": {
           "device": "/dev/sda5",
           "mount": "/var/lib/docker/plugins",
@@ -6912,15 +6810,6 @@
           ],
           "uuid": "260c4b87-cc12-44e1-b64f-ffc59d4943c3"
         },
-        "tracefs,/sys/kernel/debug/tracing": {
-          "device": "tracefs",
-          "mount": "/sys/kernel/debug/tracing",
-          "fs_type": "tracefs",
-          "mount_options": [
-            "rw",
-            "relatime"
-          ]
-        },
         "/dev/sda5,/var/lib/docker/overlay2": {
           "device": "/dev/sda5",
           "mount": "/var/lib/docker/overlay2",
@@ -6932,14 +6821,6 @@
             "data=ordered"
           ],
           "uuid": "260c4b87-cc12-44e1-b64f-ffc59d4943c3"
-        },
-        "nsfs,/run/snapd/ns/canonical-livepatch.mnt": {
-          "device": "nsfs",
-          "mount": "/run/snapd/ns/canonical-livepatch.mnt",
-          "fs_type": "nsfs",
-          "mount_options": [
-            "rw"
-          ]
         },
         "/home/.ecryptfs/cees/.Private,/home/cees": {
           "device": "/home/.ecryptfs/cees/.Private",
@@ -6997,15 +6878,6 @@
             "group_id=1000"
           ]
         },
-        "/home/cees/tmp/nerves/hello_nerves/_build/rpi3/dev/nerves/images/data/rootfs.img,/mnt": {
-          "device": "/home/cees/tmp/nerves/hello_nerves/_build/rpi3/dev/nerves/images/data/rootfs.img",
-          "mount": "/mnt",
-          "fs_type": "squashfs",
-          "mount_options": [
-            "ro",
-            "relatime"
-          ]
-        },
         "/dev/sda,": {
           "device": "/dev/sda"
         },
@@ -7023,7 +6895,7 @@
         "/dev/mapper/cryptswap1,": {
           "device": "/dev/mapper/cryptswap1",
           "fs_type": "swap",
-          "uuid": "ccf411ca-62fb-4c2f-bdf5-a36403a9e1e2"
+          "uuid": "93a4762f-a1b2-48bc-a9c4-5da5b068e7cd"
         },
         "/dev/sda2,": {
           "device": "/dev/sda2",
@@ -7111,10 +6983,10 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 1100631,
+      "_AVPHYS_PAGES": 933261,
       "_NPROCESSORS_CONF": 8,
       "_NPROCESSORS_ONLN": 8,
-      "_PHYS_PAGES": 4083912,
+      "_PHYS_PAGES": 4083913,
       "_POSIX_ARG_MAX": 2097152,
       "_POSIX_ASYNCHRONOUS_IO": 200809,
       "_POSIX_CHILD_MAX": 63376,
@@ -7431,6 +7303,10 @@
           "name": "OpenJDK 64-Bit Server VM",
           "build": "10.0.1+10-Ubuntu-3ubuntu1, mixed mode"
         }
+      },
+      "mono": {
+        "version": "4.6.2",
+        "builddate": "Copyright (C) 2002-2014 Novell, Inc, "
       }
     },
     "hostname": "oldmac-linux",
@@ -8241,40 +8117,40 @@
       "icon_name": "computer-laptop",
       "chassis": "laptop",
       "machine_id": "e610050c91594173888fabd93c705a77",
-      "boot_id": "396c0024751e4b279596f85df9b7fcfc",
+      "boot_id": "98375414cd3e40d495c35cc3f73c266b",
       "operating_system": "Ubuntu 18.04 LTS",
       "kernel": "Linux 4.15.0-20-generic",
       "architecture": "x86-64"
     },
     "sessions": {
       "by_session": {
-        "c1": {
-          "session": "c1",
-          "uid": "125",
-          "user": "gdm",
-          "seat": "seat0"
-        },
         "2": {
           "session": "2",
           "uid": "1000",
           "user": "cees",
           "seat": "seat0"
+        },
+        "c1": {
+          "session": "c1",
+          "uid": "125",
+          "user": "gdm",
+          "seat": "seat0"
         }
       },
       "by_user": {
-        "gdm": [
-          {
-            "session": "c1",
-            "uid": "125",
-            "user": "gdm",
-            "seat": "seat0"
-          }
-        ],
         "cees": [
           {
             "session": "2",
             "uid": "1000",
             "user": "cees",
+            "seat": "seat0"
+          }
+        ],
+        "gdm": [
+          {
+            "session": "c1",
+            "uid": "125",
+            "user": "gdm",
             "seat": "seat0"
           }
         ]
@@ -8287,28 +8163,28 @@
     },
     "block_device": {
       "loop1": {
-        "size": "332968",
+        "size": "191528",
         "removable": "0",
         "rotational": "1",
         "physical_block_size": "512",
         "logical_block_size": "512"
       },
       "loop8": {
-        "size": "261192",
+        "size": "332968",
         "removable": "0",
         "rotational": "1",
         "physical_block_size": "512",
         "logical_block_size": "512"
       },
       "loop6": {
-        "size": "167368",
+        "size": "261192",
         "removable": "0",
         "rotational": "1",
         "physical_block_size": "512",
         "logical_block_size": "512"
       },
       "loop4": {
-        "size": "191520",
+        "size": "177264",
         "removable": "0",
         "rotational": "1",
         "physical_block_size": "512",
@@ -8328,7 +8204,7 @@
         "logical_block_size": "512"
       },
       "loop2": {
-        "size": "177264",
+        "size": "191520",
         "removable": "0",
         "rotational": "1",
         "physical_block_size": "512",
@@ -8342,14 +8218,7 @@
         "logical_block_size": "512"
       },
       "loop0": {
-        "size": "191528",
-        "removable": "0",
-        "rotational": "1",
-        "physical_block_size": "512",
-        "logical_block_size": "512"
-      },
-      "loop9": {
-        "size": "39008",
+        "size": "331920",
         "removable": "0",
         "rotational": "1",
         "physical_block_size": "512",
@@ -8376,14 +8245,14 @@
         "logical_block_size": "512"
       },
       "loop5": {
-        "size": "177200",
+        "size": "167368",
         "removable": "0",
         "rotational": "1",
         "physical_block_size": "512",
         "logical_block_size": "512"
       },
       "loop3": {
-        "size": "331920",
+        "size": "177200",
         "removable": "0",
         "rotational": "1",
         "physical_block_size": "512",
@@ -8823,10 +8692,10 @@
       "search-state-factory": "/usr/local/share/factory/var",
       "search-configuration": "/home/cees/.config"
     },
-    "uptime_seconds": 11144,
-    "uptime": "3 hours 05 minutes 44 seconds",
-    "idletime_seconds": 83279,
-    "idletime": "23 hours 07 minutes 59 seconds",
+    "uptime_seconds": 108737,
+    "uptime": "1 day 06 hours 12 minutes 17 seconds",
+    "idletime_seconds": 271342,
+    "idletime": "3 days 03 hours 22 minutes 22 seconds",
     "time": {
       "timezone": "EDT"
     },
@@ -8837,7 +8706,7 @@
     "cloud": null,
     "shard_seed": 132027344,
     "root_group": "root",
-    "ohai_time": 1525314860.390159,
+    "ohai_time": 1525483214.0443542,
     "packages": {
       "a11y-profile-manager-indicator": {
         "version": "0.1.11-0ubuntu4",
@@ -8904,7 +8773,7 @@
         "arch": "amd64"
       },
       "apache2-bin": {
-        "version": "2.4.29-1ubuntu4",
+        "version": "2.4.29-1ubuntu4.1",
         "arch": "amd64"
       },
       "apg": {
@@ -9195,6 +9064,10 @@
         "version": "20170930ubuntu1",
         "arch": "all"
       },
+      "ca-certificates-mono": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
       "caribou": {
         "version": "0.4.21-5",
         "arch": "amd64"
@@ -9221,6 +9094,10 @@
       },
       "chrome-gnome-shell": {
         "version": "10-1",
+        "arch": "all"
+      },
+      "cli-common": {
+        "version": "0.9+nmu1",
         "arch": "all"
       },
       "cloc": {
@@ -9385,6 +9262,10 @@
       },
       "curl": {
         "version": "7.58.0-2ubuntu3",
+        "arch": "amd64"
+      },
+      "darktable": {
+        "version": "2.4.2-1",
         "arch": "amd64"
       },
       "dash": {
@@ -10292,12 +10173,20 @@
         "arch": "amd64"
       },
       "ghostscript": {
-        "version": "9.22~dfsg+1-0ubuntu1",
+        "version": "9.22~dfsg+1-0ubuntu1.1",
         "arch": "amd64"
       },
       "ghostscript-x": {
-        "version": "9.22~dfsg+1-0ubuntu1",
+        "version": "9.22~dfsg+1-0ubuntu1.1",
         "arch": "amd64"
+      },
+      "gimp": {
+        "version": "2.8.22-1",
+        "arch": "amd64"
+      },
+      "gimp-data": {
+        "version": "2.8.22-1",
+        "arch": "all"
       },
       "gir1.2-accounts-1.0": {
         "version": "1.23+17.04.20161104-0ubuntu1",
@@ -10589,6 +10478,10 @@
       },
       "gnome-getting-started-docs": {
         "version": "3.28.1-0ubuntu1",
+        "arch": "all"
+      },
+      "gnome-icon-theme": {
+        "version": "3.12.0-3",
         "arch": "all"
       },
       "gnome-initial-setup": {
@@ -11415,6 +11308,10 @@
         "version": "2:4.4.2-10",
         "arch": "amd64"
       },
+      "libamd2": {
+        "version": "1:5.1.2-2",
+        "arch": "amd64"
+      },
       "libao-common": {
         "version": "1.2.2+20180113-1ubuntu1",
         "arch": "all"
@@ -11687,6 +11584,10 @@
         "version": "1.5.5-1",
         "arch": "amd64"
       },
+      "libbabl-0.1-0": {
+        "version": "0.1.44-1",
+        "arch": "amd64"
+      },
       "libbamf3-2": {
         "version": "0.5.3+18.04.20180207.2-0ubuntu1",
         "arch": "amd64"
@@ -11863,6 +11764,10 @@
         "version": "1.12.2-3",
         "arch": "amd64"
       },
+      "libcamd2": {
+        "version": "1:5.1.2-2",
+        "arch": "amd64"
+      },
       "libcamel-1.2-59": {
         "version": "3.22.7-0ubuntu1",
         "arch": "amd64"
@@ -11919,6 +11824,10 @@
         "version": "8-20180414-1ubuntu2",
         "arch": "amd64"
       },
+      "libccolamd2": {
+        "version": "1:5.1.2-2",
+        "arch": "amd64"
+      },
       "libcdio-cdda2": {
         "version": "10.2+0.94+2-2build1",
         "arch": "amd64"
@@ -11961,6 +11870,10 @@
       },
       "libcheese8": {
         "version": "3.28.0-1ubuntu1",
+        "arch": "amd64"
+      },
+      "libcholmod3": {
+        "version": "1:5.1.2-2",
         "arch": "amd64"
       },
       "libchromaprint1": {
@@ -12535,6 +12448,10 @@
         "version": "1.3.2-1",
         "arch": "amd64"
       },
+      "libflickcurl0": {
+        "version": "1.26-4",
+        "arch": "amd64"
+      },
       "libflite1": {
         "version": "2.1-release-1",
         "arch": "amd64"
@@ -12743,6 +12660,10 @@
         "version": "2.8.4-1build2",
         "arch": "amd64"
       },
+      "libgdiplus": {
+        "version": "4.2-2",
+        "arch": "amd64"
+      },
       "libgdk-pixbuf2.0-0": {
         "version": "2.36.11-2",
         "arch": "amd64"
@@ -12761,6 +12682,10 @@
       },
       "libgee-0.8-2": {
         "version": "0.20.1-1",
+        "arch": "amd64"
+      },
+      "libgegl-0.3-0": {
+        "version": "0.3.30-1ubuntu1",
         "arch": "amd64"
       },
       "libgeis1": {
@@ -12821,6 +12746,10 @@
       },
       "libgif7": {
         "version": "5.1.4-2",
+        "arch": "amd64"
+      },
+      "libgimp2.0": {
+        "version": "2.8.22-1",
         "arch": "amd64"
       },
       "libgirepository-1.0-1": {
@@ -12897,6 +12826,10 @@
       },
       "libglib2.0-bin": {
         "version": "2.56.1-2ubuntu1",
+        "arch": "amd64"
+      },
+      "libglib2.0-cil": {
+        "version": "2.12.40-2",
         "arch": "amd64"
       },
       "libglib2.0-data": {
@@ -13071,6 +13004,10 @@
         "version": "1.8.0-1",
         "arch": "amd64"
       },
+      "libgraphicsmagick-q16-3": {
+        "version": "1.3.28-2",
+        "arch": "amd64"
+      },
       "libgraphite2-3": {
         "version": "1.3.11-2",
         "arch": "amd64"
@@ -13084,11 +13021,11 @@
         "arch": "amd64"
       },
       "libgs9": {
-        "version": "9.22~dfsg+1-0ubuntu1",
+        "version": "9.22~dfsg+1-0ubuntu1.1",
         "arch": "amd64"
       },
       "libgs9-common": {
-        "version": "9.22~dfsg+1-0ubuntu1",
+        "version": "9.22~dfsg+1-0ubuntu1.1",
         "arch": "all"
       },
       "libgsasl7": {
@@ -13165,6 +13102,10 @@
       },
       "libgtk2.0-bin": {
         "version": "2.24.32-1ubuntu1",
+        "arch": "amd64"
+      },
+      "libgtk2.0-cil": {
+        "version": "2.12.40-2",
         "arch": "amd64"
       },
       "libgtk2.0-common": {
@@ -13583,6 +13524,14 @@
         "version": "3.2.1-1",
         "arch": "all"
       },
+      "libjs-prototype": {
+        "version": "1.7.1-3",
+        "arch": "all"
+      },
+      "libjs-scriptaculous": {
+        "version": "1.9.0-2",
+        "arch": "all"
+      },
       "libjs-underscore": {
         "version": "1.8.3~dfsg-1",
         "arch": "all"
@@ -13693,6 +13642,14 @@
       },
       "libldb1": {
         "version": "2:1.2.3-1",
+        "arch": "amd64"
+      },
+      "liblensfun-data-v1": {
+        "version": "0.3.2-4",
+        "arch": "all"
+      },
+      "liblensfun1": {
+        "version": "0.3.2-4",
         "arch": "amd64"
       },
       "liblightdm-gobject-1-0": {
@@ -13871,6 +13828,10 @@
         "version": "1:3.28.0-1",
         "arch": "amd64"
       },
+      "libmetis5": {
+        "version": "5.1.0.dfsg-5",
+        "arch": "amd64"
+      },
       "libmhash2": {
         "version": "0.9.9.9-7",
         "arch": "amd64"
@@ -13910,6 +13871,66 @@
       "libmnl0": {
         "version": "1.0.4-2",
         "arch": "amd64"
+      },
+      "libmono-addins-gui0.2-cil": {
+        "version": "1.0+git20130406.adcd75b-4",
+        "arch": "all"
+      },
+      "libmono-addins0.2-cil": {
+        "version": "1.0+git20130406.adcd75b-4",
+        "arch": "all"
+      },
+      "libmono-cairo4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-corlib4.5-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-i18n-west4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-i18n4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-posix4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-security4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-sharpzip4.84-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-system-configuration4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-system-core4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-system-drawing4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-system-security4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-system-xml4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "libmono-system4.0-cil": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
       },
       "libmount1": {
         "version": "2.31.1-0.4ubuntu3",
@@ -13980,7 +14001,7 @@
         "arch": "amd64"
       },
       "libmysqlclient20": {
-        "version": "5.7.21-1ubuntu1",
+        "version": "5.7.22-0ubuntu18.04.1",
         "arch": "amd64"
       },
       "libmythes-1.2-0": {
@@ -14291,6 +14312,10 @@
         "version": "1:0.4.28-1",
         "arch": "amd64"
       },
+      "libosmgpsmap-1.0-1": {
+        "version": "1.1.0-2",
+        "arch": "amd64"
+      },
       "libotf0": {
         "version": "0.9.13-3build1",
         "arch": "amd64"
@@ -14549,6 +14574,10 @@
       },
       "libpthread-stubs0-dev": {
         "version": "0.3-4",
+        "arch": "amd64"
+      },
+      "libpugixml1v5": {
+        "version": "1.8.1-7",
         "arch": "amd64"
       },
       "libpulse-mainloop-glib0": {
@@ -15399,6 +15428,10 @@
         "version": "2.7.6-3",
         "arch": "amd64"
       },
+      "libumfpack5": {
+        "version": "1:5.1.2-2",
+        "arch": "amd64"
+      },
       "libunique-1.0-0": {
         "version": "1.1.6-6",
         "arch": "amd64"
@@ -15596,7 +15629,7 @@
         "arch": "amd64"
       },
       "libwavpack1": {
-        "version": "5.1.0-2ubuntu1",
+        "version": "5.1.0-2ubuntu1.1",
         "arch": "amd64"
       },
       "libwayland-bin": {
@@ -16599,6 +16632,26 @@
         "version": "1.6.8-2ubuntu1",
         "arch": "amd64"
       },
+      "mono-4.0-gac": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "mono-gac": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "all"
+      },
+      "mono-runtime": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "amd64"
+      },
+      "mono-runtime-common": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "amd64"
+      },
+      "mono-runtime-sgen": {
+        "version": "4.6.2.7+dfsg-1ubuntu1",
+        "arch": "amd64"
+      },
       "mount": {
         "version": "2.31.1-0.4ubuntu3",
         "arch": "amd64"
@@ -16926,6 +16979,10 @@
       "pinentry-gnome3": {
         "version": "1.1.0-1",
         "arch": "amd64"
+      },
+      "pinta": {
+        "version": "1.6-2",
+        "arch": "all"
       },
       "pkg-config": {
         "version": "0.29.1-0ubuntu2",

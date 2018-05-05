@@ -5,8 +5,7 @@ clean:
 	rm -rf cookbooks
 
 setup: clean
-	sudo apt-get install -y chefdk
 	berks vendor cookbooks
 
-run: setup
+run: 
 	sudo chef-client -z -r 'role[devbox]'
