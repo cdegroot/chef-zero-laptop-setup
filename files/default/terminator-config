@@ -25,7 +25,7 @@
     cursor_color = "#aaaaaa"
     font = Source Code Pro 10
     foreground_color = "#000000"
-    palette = "#fbf1c7:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#7c6f64:#928374:#9d0006:#79740e:#b57614:#076678:#8f3f71:#427b58:#3c3836"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#0000ff:#ff00ff:#00ffff:#ffffff"
     scrollback_infinite = True
     scrollbar_position = hidden
     use_system_font = False
