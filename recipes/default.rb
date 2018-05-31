@@ -14,6 +14,7 @@ include_recipe 'devbox::emacs'
 include_recipe 'devbox::vim'
 include_recipe 'devbox::terminator'
 include_recipe 'devbox::nerves'
+include_recipe 'devbox::clamav'
 
 # Todo:
 # - Add private key that can talk to github for at least checkout. The idea is
