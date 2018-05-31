@@ -114,7 +114,7 @@ load_current_value do |desired|
 end
 
 def after_created
-  raise 'The windows_share resource relies on PowerShell cmdlets not present in Windows releases prior to 8/2012. Cannot continue!' if node['platform_version'].to_f < 8.2
+  raise 'The windows_share resource relies on PowerShell cmdlets not present in Windows releases prior to 8/2012. Cannot continue!' if node['platform_version'].to_f < 6.3
 end
 
 # given the string output of Get-SmbShareAccess parse out
@@ -201,7 +201,7 @@ action_class do
   def create_share
     raise "#{new_resource.path} is missing or not a directory. Shares cannot be created if the path doesn't first exist." unless ::File.directory? new_resource.path
 
-    share_cmd = "New-SmbShare -Name '#{new_resource.share_name}' -Path #{new_resource.path} -Description '#{new_resource.description}' -ConcurrentUserLimit #{new_resource.concurrent_user_limit} -CATimeout #{new_resource.ca_timeout} -EncryptData:#{bool_string(new_resource.encrypt_data)} -ContinuouslyAvailable:#{bool_string(new_resource.continuously_available)}"
+    share_cmd = "New-SmbShare -Name '#{new_resource.share_name}' -Path '#{new_resource.path}' -Description '#{new_resource.description}' -ConcurrentUserLimit #{new_resource.concurrent_user_limit} -CATimeout #{new_resource.ca_timeout} -EncryptData:#{bool_string(new_resource.encrypt_data)} -ContinuouslyAvailable:#{bool_string(new_resource.continuously_available)}"
     share_cmd << " -ScopeName #{new_resource.scope_name}" unless new_resource.scope_name == '*' # passing * causes the command to fail
     share_cmd << " -Temporary:#{bool_string(new_resource.temporary)}" if new_resource.temporary # only set true
 

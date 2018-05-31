@@ -2,7 +2,7 @@ DEPENDENCIES
   apt
   asdf
     git: https://github.com/cdegroot/asdf-chef
-    revision: 287b2ae819b80102a4a472828862f2e43cfe7887
+    revision: d0e087eb044afc79672eda3dad3fa351654b80ae
   devbox
     path: .
     metadata: true
@@ -23,6 +23,6 @@ GRAPH
     asdf (>= 0.0.0)
   mingw (2.0.2)
     seven_zip (>= 0.0.0)
-  seven_zip (2.0.2)
-    windows (>= 1.2.2)
-  windows (4.2.2)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  windows (4.2.5)
