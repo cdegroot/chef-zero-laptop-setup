@@ -5,7 +5,11 @@ clean:
 	rm -rf cookbooks
 
 setup: clean
-	berks vendor cookbooks
+	/usr/bin/berks vendor cookbooks
 
-run: 
-	sudo chef-client -z -r 'role[devbox]'
+run:
+	sudo -E /usr/bin/chef-client -z -r 'role[devbox]'
+
+firstinstall:
+	sudo apt update
+	sudo apt install git chef chef-zero

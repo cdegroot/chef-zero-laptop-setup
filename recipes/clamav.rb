@@ -1,4 +1,4 @@
-
-package 'git' do
+package 'clamav' do
   action :upgrade
 end
+
