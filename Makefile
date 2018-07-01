@@ -9,6 +9,7 @@ setup: clean
 
 run:
 	sudo -E /usr/bin/chef-client -z -r 'role[devbox]'
+	sudo chown -R ${USER} .
 
 firstinstall:
 	sudo apt update
