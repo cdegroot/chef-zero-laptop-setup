@@ -13,3 +13,10 @@ asdf_plugin 'rebar3' do
   user node.default['user']['account']
   git_url 'https://github.com/Stratus3D/asdf-rebar'
 end
+
+execute 'asdf install' do
+  cwd '/home/cees'
+end
+
+execute 'mix local.hex --force'
+execute 'mix local.rebar --force'

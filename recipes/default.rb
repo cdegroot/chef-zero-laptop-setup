@@ -8,6 +8,8 @@ package 'nano' do
   action :remove
 end
 
+package 'silversearcher-ag'
+
 include_recipe 'devbox::git'
 include_recipe 'devbox::asdf'
 include_recipe 'devbox::emacs'
