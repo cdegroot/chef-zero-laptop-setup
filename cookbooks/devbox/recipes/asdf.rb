@@ -14,12 +14,11 @@ asdf_plugin 'rebar3' do
   git_url 'https://github.com/Stratus3D/asdf-rebar'
 end
 
-execute 'asdf install' do
-  cwd '/home/cees'
+execute '~/.asdf/plugins/nodejs/bin/import-release-team-keyring' do
   user 'cees'
 end
-
-execute '~/.asdf/plugins/nodejs/bin/import-release-team-keyring' do
+execute 'asdf install' do
+  cwd '/home/cees'
   user 'cees'
 end
 execute 'mix local.hex --force'  do
